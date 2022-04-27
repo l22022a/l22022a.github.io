@@ -1,0 +1,8 @@
+*** relatorios/202120049/T1/saida.txt	2022-04-27 08:53:38.781152381 -0300
+--- ./entradas/t1/pontos.res	2022-04-27 07:51:34.533567598 -0300
+***************
+*** 1 ****
+! Não foi possivel abrir o arquivo: 
+\ Nenhum caractere de nova linha no final do arquivo
+--- 1 ----
+! 55.72

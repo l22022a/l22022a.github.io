@@ -1,0 +1,300 @@
+
+---
+Digite o valor de x da 1 coordenada: Digite o valor de y da 1 coordenada: ---
+
+---
+Digite o valor de x da 2 coordenada: Digite o valor de y da 2 coordenada: ---
+
+---
+Digite o valor de x da 3 coordenada: Digite o valor de y da 3 coordenada: ---
+
+---
+Digite o valor de x da 4 coordenada: Digite o valor de y da 4 coordenada: ---
+
+---
+Digite o valor de x da 5 coordenada: Digite o valor de y da 5 coordenada: ---
+
+---
+Digite o valor de x da 6 coordenada: Digite o valor de y da 6 coordenada: ---
+
+---
+Digite o valor de x da 7 coordenada: Digite o valor de y da 7 coordenada: ---
+
+---
+Digite o valor de x da 8 coordenada: Digite o valor de y da 8 coordenada: ---
+
+---
+Digite o valor de x da 9 coordenada: Digite o valor de y da 9 coordenada: ---
+
+---
+Digite o valor de x da 10 coordenada: Digite o valor de y da 10 coordenada: ---
+
+---
+Digite o valor de x da 11 coordenada: Digite o valor de y da 11 coordenada: ---
+
+---
+Digite o valor de x da 12 coordenada: Digite o valor de y da 12 coordenada: ---
+
+---
+Digite o valor de x da 13 coordenada: Digite o valor de y da 13 coordenada: ---
+
+---
+Digite o valor de x da 14 coordenada: Digite o valor de y da 14 coordenada: ---
+
+---
+Digite o valor de x da 15 coordenada: Digite o valor de y da 15 coordenada: ---
+
+---
+Digite o valor de x da 16 coordenada: Digite o valor de y da 16 coordenada: ---
+
+---
+Digite o valor de x da 17 coordenada: Digite o valor de y da 17 coordenada: ---
+
+---
+Digite o valor de x da 18 coordenada: Digite o valor de y da 18 coordenada: ---
+
+---
+Digite o valor de x da 19 coordenada: Digite o valor de y da 19 coordenada: ---
+
+---
+Digite o valor de x da 20 coordenada: Digite o valor de y da 20 coordenada: ---
+
+---
+Digite o valor de x da 21 coordenada: Digite o valor de y da 21 coordenada: ---
+
+---
+Digite o valor de x da 22 coordenada: Digite o valor de y da 22 coordenada: ---
+
+---
+Digite o valor de x da 23 coordenada: Digite o valor de y da 23 coordenada: ---
+
+---
+Digite o valor de x da 24 coordenada: Digite o valor de y da 24 coordenada: ---
+
+---
+Digite o valor de x da 25 coordenada: Digite o valor de y da 25 coordenada: ---
+
+---
+Digite o valor de x da 26 coordenada: Digite o valor de y da 26 coordenada: ---
+
+---
+Digite o valor de x da 27 coordenada: Digite o valor de y da 27 coordenada: ---
+
+---
+Digite o valor de x da 28 coordenada: Digite o valor de y da 28 coordenada: ---
+
+---
+Digite o valor de x da 29 coordenada: Digite o valor de y da 29 coordenada: ---
+
+---
+Digite o valor de x da 30 coordenada: Digite o valor de y da 30 coordenada: ---
+
+---
+Digite o valor de x da 31 coordenada: Digite o valor de y da 31 coordenada: ---
+
+---
+Digite o valor de x da 32 coordenada: Digite o valor de y da 32 coordenada: ---
+
+---
+Digite o valor de x da 33 coordenada: Digite o valor de y da 33 coordenada: ---
+
+---
+Digite o valor de x da 34 coordenada: Digite o valor de y da 34 coordenada: ---
+
+---
+Digite o valor de x da 35 coordenada: Digite o valor de y da 35 coordenada: ---
+
+---
+Digite o valor de x da 36 coordenada: Digite o valor de y da 36 coordenada: ---
+
+---
+Digite o valor de x da 37 coordenada: Digite o valor de y da 37 coordenada: ---
+
+---
+Digite o valor de x da 38 coordenada: Digite o valor de y da 38 coordenada: ---
+
+---
+Digite o valor de x da 39 coordenada: Digite o valor de y da 39 coordenada: ---
+
+---
+Digite o valor de x da 40 coordenada: Digite o valor de y da 40 coordenada: ---
+
+---
+Digite o valor de x da 41 coordenada: Digite o valor de y da 41 coordenada: ---
+
+---
+Digite o valor de x da 42 coordenada: Digite o valor de y da 42 coordenada: ---
+
+---
+Digite o valor de x da 43 coordenada: Digite o valor de y da 43 coordenada: ---
+
+---
+Digite o valor de x da 44 coordenada: Digite o valor de y da 44 coordenada: ---
+
+---
+Digite o valor de x da 45 coordenada: Digite o valor de y da 45 coordenada: ---
+
+---
+Digite o valor de x da 46 coordenada: Digite o valor de y da 46 coordenada: ---
+
+---
+Digite o valor de x da 47 coordenada: Digite o valor de y da 47 coordenada: ---
+
+---
+Digite o valor de x da 48 coordenada: Digite o valor de y da 48 coordenada: ---
+
+---
+Digite o valor de x da 49 coordenada: Digite o valor de y da 49 coordenada: ---
+
+---
+Digite o valor de x da 50 coordenada: Digite o valor de y da 50 coordenada: ---
+
+---
+Digite o valor de x da 51 coordenada: Digite o valor de y da 51 coordenada: ---
+
+---
+Digite o valor de x da 52 coordenada: Digite o valor de y da 52 coordenada: ---
+
+---
+Digite o valor de x da 53 coordenada: Digite o valor de y da 53 coordenada: ---
+
+---
+Digite o valor de x da 54 coordenada: Digite o valor de y da 54 coordenada: ---
+
+---
+Digite o valor de x da 55 coordenada: Digite o valor de y da 55 coordenada: ---
+
+---
+Digite o valor de x da 56 coordenada: Digite o valor de y da 56 coordenada: ---
+
+---
+Digite o valor de x da 57 coordenada: Digite o valor de y da 57 coordenada: ---
+
+---
+Digite o valor de x da 58 coordenada: Digite o valor de y da 58 coordenada: ---
+
+---
+Digite o valor de x da 59 coordenada: Digite o valor de y da 59 coordenada: ---
+
+---
+Digite o valor de x da 60 coordenada: Digite o valor de y da 60 coordenada: ---
+
+---
+Digite o valor de x da 61 coordenada: Digite o valor de y da 61 coordenada: ---
+
+---
+Digite o valor de x da 62 coordenada: Digite o valor de y da 62 coordenada: ---
+
+---
+Digite o valor de x da 63 coordenada: Digite o valor de y da 63 coordenada: ---
+
+---
+Digite o valor de x da 64 coordenada: Digite o valor de y da 64 coordenada: ---
+
+---
+Digite o valor de x da 65 coordenada: Digite o valor de y da 65 coordenada: ---
+
+---
+Digite o valor de x da 66 coordenada: Digite o valor de y da 66 coordenada: ---
+
+---
+Digite o valor de x da 67 coordenada: Digite o valor de y da 67 coordenada: ---
+
+---
+Digite o valor de x da 68 coordenada: Digite o valor de y da 68 coordenada: ---
+
+---
+Digite o valor de x da 69 coordenada: Digite o valor de y da 69 coordenada: ---
+
+---
+Digite o valor de x da 70 coordenada: Digite o valor de y da 70 coordenada: ---
+
+---
+Digite o valor de x da 71 coordenada: Digite o valor de y da 71 coordenada: ---
+
+---
+Digite o valor de x da 72 coordenada: Digite o valor de y da 72 coordenada: ---
+
+---
+Digite o valor de x da 73 coordenada: Digite o valor de y da 73 coordenada: ---
+
+---
+Digite o valor de x da 74 coordenada: Digite o valor de y da 74 coordenada: ---
+
+---
+Digite o valor de x da 75 coordenada: Digite o valor de y da 75 coordenada: ---
+
+---
+Digite o valor de x da 76 coordenada: Digite o valor de y da 76 coordenada: ---
+
+---
+Digite o valor de x da 77 coordenada: Digite o valor de y da 77 coordenada: ---
+
+---
+Digite o valor de x da 78 coordenada: Digite o valor de y da 78 coordenada: ---
+
+---
+Digite o valor de x da 79 coordenada: Digite o valor de y da 79 coordenada: ---
+
+---
+Digite o valor de x da 80 coordenada: Digite o valor de y da 80 coordenada: ---
+
+---
+Digite o valor de x da 81 coordenada: Digite o valor de y da 81 coordenada: ---
+
+---
+Digite o valor de x da 82 coordenada: Digite o valor de y da 82 coordenada: ---
+
+---
+Digite o valor de x da 83 coordenada: Digite o valor de y da 83 coordenada: ---
+
+---
+Digite o valor de x da 84 coordenada: Digite o valor de y da 84 coordenada: ---
+
+---
+Digite o valor de x da 85 coordenada: Digite o valor de y da 85 coordenada: ---
+
+---
+Digite o valor de x da 86 coordenada: Digite o valor de y da 86 coordenada: ---
+
+---
+Digite o valor de x da 87 coordenada: Digite o valor de y da 87 coordenada: ---
+
+---
+Digite o valor de x da 88 coordenada: Digite o valor de y da 88 coordenada: ---
+
+---
+Digite o valor de x da 89 coordenada: Digite o valor de y da 89 coordenada: ---
+
+---
+Digite o valor de x da 90 coordenada: Digite o valor de y da 90 coordenada: ---
+
+---
+Digite o valor de x da 91 coordenada: Digite o valor de y da 91 coordenada: ---
+
+---
+Digite o valor de x da 92 coordenada: Digite o valor de y da 92 coordenada: ---
+
+---
+Digite o valor de x da 93 coordenada: Digite o valor de y da 93 coordenada: ---
+
+---
+Digite o valor de x da 94 coordenada: Digite o valor de y da 94 coordenada: ---
+
+---
+Digite o valor de x da 95 coordenada: Digite o valor de y da 95 coordenada: ---
+
+---
+Digite o valor de x da 96 coordenada: Digite o valor de y da 96 coordenada: ---
+
+---
+Digite o valor de x da 97 coordenada: Digite o valor de y da 97 coordenada: ---
+
+---
+Digite o valor de x da 98 coordenada: Digite o valor de y da 98 coordenada: ---
+
+---
+Digite o valor de x da 99 coordenada: Digite o valor de y da 99 coordenada: ---
+
+---
+Digite o valor de x da 100 coordenada: Digite o valor de y da 100 coordenada: ---

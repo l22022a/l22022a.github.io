@@ -1,0 +1,6 @@
+main.cpp:19:15: style: The scope of the variable 'y' can be reduced. [variableScope]
+    double x, y;
+              ^
+main.cpp:12:37: style: Parameter 'point' can be declared with const [constParameter]
+    double calculateDistance(Point &point) const {
+                                    ^

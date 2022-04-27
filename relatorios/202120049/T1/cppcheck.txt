@@ -1,0 +1,6 @@
+t1.cpp:33:11: style: The scope of the variable 'distancia' can be reduced. [variableScope]
+    float distancia = 0, soma = 0;
+          ^
+t1.cpp:33:21: style: Variable 'distancia' is assigned a value that is never used. [unreadVariable]
+    float distancia = 0, soma = 0;
+                    ^

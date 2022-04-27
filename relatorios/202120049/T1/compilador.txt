@@ -1,0 +1,4 @@
+t1.cpp: In function ‘int main(int, char**)’:
+t1.cpp:34:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pontos>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   34 |     for(int i=0; i<pontos.size()-1; i++){
+      |                  ~^~~~~~~~~~~~~~~~

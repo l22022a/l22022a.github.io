@@ -1,0 +1,6 @@
+trabalho1.cpp:13:27: style: The scope of the variable 'distpar' can be reduced. [variableScope]
+    double disttotal=0.0, distpar=0.0;
+                          ^
+trabalho1.cpp:13:34: style: Variable 'distpar' is assigned a value that is never used. [unreadVariable]
+    double disttotal=0.0, distpar=0.0;
+                                 ^
