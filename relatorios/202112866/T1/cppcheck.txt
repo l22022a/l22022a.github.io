@@ -1,6 +1,9 @@
 Trabalho1Deivis.cpp:18:28: style: Parameter 'p1' can be declared with const [constParameter]
     float distancia(Ponto& p1) const {
                            ^
+Trabalho1Deivis.cpp:30:27: error: Uninitialized variable: x [uninitvar]
+    while (std::cin >> p2.x >> p2.y) {
+                          ^
 Trabalho1Deivis.cpp:13:0: style: The function 'zera' is never used. [unusedFunction]
 
 ^

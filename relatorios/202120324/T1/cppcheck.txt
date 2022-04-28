@@ -1,6 +1,3 @@
-Somar_pos.cpp:19:28: style: Parameter 'p1' can be declared with const [constParameter]
+Somar_pos.cpp:13:28: style: Parameter 'p1' can be declared with const [constParameter]
     float distancia(Ponto& p1) const {
                            ^
-Somar_pos.cpp:13:0: style: The function 'zera' is never used. [unusedFunction]
-
-^
