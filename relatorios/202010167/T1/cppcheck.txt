@@ -1,0 +1,3 @@
+main.cpp:8:21: style: Parameter 'vet2' can be declared with const [constParameter]
+  float dist(Ponto& vet2) const{
+                    ^

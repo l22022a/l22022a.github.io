@@ -1,0 +1,12 @@
+t1-giovanni.cpp:14:11: style: The scope of the variable 'somaDistancias' can be reduced. [variableScope]
+    float somaDistancias = 0.0;
+          ^
+t1-giovanni.cpp:23:9: error: Uninitialized variable: resultado [uninitvar]
+        resultado += somaDistancias;
+        ^
+t1-giovanni.cpp:19:26: error: Uninitialized variable: x [uninitvar]
+    while(std::cin >> p2.x >> p2.y){
+                         ^
+t1-giovanni.cpp:14:26: style: Variable 'somaDistancias' is assigned a value that is never used. [unreadVariable]
+    float somaDistancias = 0.0;
+                         ^

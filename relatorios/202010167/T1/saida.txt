@@ -1,0 +1,1 @@
+insira os pares de coordenadas que definem os pontos a serem lidos, ateh usar ctrl d para interromper a leitura, e obter o comprimento da distacnia dois a dois desses: soma igual a: 55.72

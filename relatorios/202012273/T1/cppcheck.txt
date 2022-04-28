@@ -1,0 +1,6 @@
+t1.cpp:13:12: style: The scope of the variable 'distancia_entre_pontos' can be reduced. [variableScope]
+    double distancia_entre_pontos, distancia_total = 0;
+           ^
+t1.cpp:18:26: error: Uninitialized variable: x [uninitvar]
+    while(std::cin >> p2.x >> p2.y) {
+                         ^
