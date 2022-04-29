@@ -1,0 +1,9 @@
+anatrabalho.cpp:10:24: style: Parameter 'p1' can be declared with const [constParameter]
+float distancia(Ponto& p1, Ponto& p2) {
+                       ^
+anatrabalho.cpp:10:35: style: Parameter 'p2' can be declared with const [constParameter]
+float distancia(Ponto& p1, Ponto& p2) {
+                                  ^
+anatrabalho.cpp:22:27: error: Uninitialized variable: x [uninitvar]
+    while (std::cin >> p2.x >> p2.y) {
+                          ^
