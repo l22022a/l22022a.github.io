@@ -1,0 +1,4 @@
+contador-de-texto.cpp: In function ‘void contachar(char*, geral*)’:
+contador-de-texto.cpp:19:25: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   19 |     if (vetor[i] >= 'a' && vetor[i] <= 'z' || vetor[i] >= 'A' && vetor[i] <= 'Z') {
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
