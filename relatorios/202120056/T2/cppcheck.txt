@@ -1,6 +1,3 @@
 SegundoTrabalho.cpp:47:11: style: The scope of the variable 'guardaFrase' can be reduced. [variableScope]
     char* guardaFrase;
           ^
-SegundoTrabalho.cpp:51:18: style: Variable 'contador' is assigned a value that is never used. [unreadVariable]
-    int contador = 0;
-                 ^

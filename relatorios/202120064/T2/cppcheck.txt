@@ -1,0 +1,9 @@
+l2-t2-Giovanni.cpp:8:64: style: The scope of the variable 'numEspacos' can be reduced. [variableScope]
+    int numLinhas = 0, numCaracteres = 0, numLinhasVazias = 0, numEspacos, numVogais;
+                                                               ^
+l2-t2-Giovanni.cpp:8:76: style: The scope of the variable 'numVogais' can be reduced. [variableScope]
+    int numLinhas = 0, numCaracteres = 0, numLinhasVazias = 0, numEspacos, numVogais;
+                                                                           ^
+l2-t2-Giovanni.cpp:12:11: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+    char* vetor;
+          ^

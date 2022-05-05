@@ -1,0 +1,7 @@
+==626141== Mismatched free() / delete / delete []
+==626141==    at 0x483CFBF: operator delete(void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==626141==    by 0x109664: main (t2.cpp:66)
+==626141==  Address 0x4dbcda0 is 0 bytes inside a block of size 57 alloc'd
+==626141==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==626141==    by 0x1095F2: main (t2.cpp:58)
+==626141== 
