@@ -1,0 +1,4 @@
+main.cpp: In function ‘void printaInfoLinhas(char*)’:
+main.cpp:19:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   19 |     for(int i = 0; i < strlen(linhas); i++){
+      |                    ~~^~~~~~~~~~~~~~~~

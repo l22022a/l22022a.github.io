@@ -1,0 +1,7 @@
+t2.cpp: In function ‘int main()’:
+t2.cpp:34:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   34 |             for(int i=0; i<linha.size(); i++) {
+      |                          ~^~~~~~~~~~~~~
+t2.cpp:12:9: warning: unused variable ‘vogais’ [-Wunused-variable]
+   12 |     int vogais = 0;
+      |         ^~~~~~

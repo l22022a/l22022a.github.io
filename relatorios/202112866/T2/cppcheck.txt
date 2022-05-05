@@ -1,12 +1,6 @@
-.ccls-cache/@home@runner@trabalho2lab2Deivis/main.cpp:40:23: style: Variable 'totalCaracteres' is assigned a value that is never used. [unreadVariable]
+.ccls-cache/@home@runner@trabalho2lab2Deivis/t2.cpp:40:23: style: Variable 'totalCaracteres' is assigned a value that is never used. [unreadVariable]
       totalCaracteres += strlen(*linhaFor);
                       ^
-.ccls-cache/@home@runner@trabalho2lab2Deivis/main.cpp:20:11: style: Unused variable: texto [unusedVariable]
-    char* texto;
-          ^
-main.cpp:40:23: style: Variable 'totalCaracteres' is assigned a value that is never used. [unreadVariable]
-      totalCaracteres += strlen(*linhaFor);
-                      ^
-main.cpp:20:11: style: Unused variable: texto [unusedVariable]
+.ccls-cache/@home@runner@trabalho2lab2Deivis/t2.cpp:20:11: style: Unused variable: texto [unusedVariable]
     char* texto;
           ^

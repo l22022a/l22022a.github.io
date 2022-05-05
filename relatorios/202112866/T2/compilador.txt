@@ -2,7 +2,3 @@ main.cpp: In function ‘int numeroCaracter(char*, char)’:
 main.cpp:8:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
     8 |   for(int i = 0; i < strlen(linha); i++){
       |                  ~~^~~~~~~~~~~~~~~
-main.cpp: In function ‘int main()’:
-main.cpp:20:11: warning: unused variable ‘texto’ [-Wunused-variable]
-   20 |     char* texto;
-      |           ^~~~~

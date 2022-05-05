@@ -1,0 +1,3 @@
+t2.cpp:12:16: style: Variable 'vogais' is assigned a value that is never used. [unreadVariable]
+    int vogais = 0;
+               ^

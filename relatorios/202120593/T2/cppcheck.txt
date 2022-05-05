@@ -1,0 +1,9 @@
+t2.cpp:39:11: style: The scope of the variable 'texto' can be reduced. [variableScope]
+    char* texto;
+          ^
+t2.cpp:42:41: style: The scope of the variable 'charl' can be reduced. [variableScope]
+    int line=0, linevaz=0, contchart=0, charl=0;
+                                        ^
+t2.cpp:42:46: style: Variable 'charl' is assigned a value that is never used. [unreadVariable]
+    int line=0, linevaz=0, contchart=0, charl=0;
+                                             ^
