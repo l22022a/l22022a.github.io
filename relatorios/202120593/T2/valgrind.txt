@@ -1,4 +1,0 @@
-==633885== 1 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==633885==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==633885==    by 0x10961C: main (t2.cpp:61)
-==633885== 

@@ -1,3 +1,9 @@
-t2.cpp:12:16: style: Variable 'vogais' is assigned a value that is never used. [unreadVariable]
-    int vogais = 0;
-               ^
+t2.cpp:34:21: style: Local variable 'i' shadows outer variable [shadowVariable]
+            for(int i=0; i<linha.size(); i++) { // contando caracteres
+                    ^
+t2.cpp:18:9: note: Shadowed declaration
+    int i;
+        ^
+t2.cpp:34:21: note: Shadow variable
+            for(int i=0; i<linha.size(); i++) { // contando caracteres
+                    ^

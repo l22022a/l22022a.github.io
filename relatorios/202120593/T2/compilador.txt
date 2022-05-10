@@ -1,0 +1,4 @@
+t2.cpp: In function ‘int main()’:
+t2.cpp:63:33: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   63 |         if (texto[linha.size()] = cin.eof() && linha.size() == 0) {
+      |             ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

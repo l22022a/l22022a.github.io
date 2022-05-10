@@ -1,0 +1,3 @@
+main.cpp:50:33: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+                                {
+                                ^
