@@ -1,0 +1,6 @@
+t2.cpp:34:13: error: Uninitialized variable: LinhaVazia [uninitvar]
+            LinhaVazia++;
+            ^
+t2.cpp:20:32: style: Variable 'LinhaVazia' is not assigned a value. [unassignedVariable]
+    int Nlinha = 0, Nchar = 0, LinhaVazia;
+                               ^

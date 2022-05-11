@@ -1,0 +1,4 @@
+main (12).cpp: In function ‘int main()’:
+main (12).cpp:8:46: warning: unused variable ‘n’ [-Wunused-variable]
+    8 |       Contadorespaco = 0, Contadorvogal = 0, n;
+      |                                              ^

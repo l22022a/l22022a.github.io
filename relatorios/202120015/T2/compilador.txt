@@ -1,0 +1,14 @@
+main.cpp: In function ‘void verificaLinhas(std::vector<char*>&, int)’:
+main.cpp:19:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   19 |     for(auto i = 0; i <  entrada.size(); i++){
+      |                     ~~^~~~~~~~~~~~~~~~~
+main.cpp:28:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   28 |             for(auto j = 0; j <  strlen(entrada[i]); j++){
+      |                             ~~^~~~~~~~~~~~~~~~~~~~~
+main.cpp:48:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   48 |     for(int i = 0; i < vogais.size(); i++){
+      |                    ~~^~~~~~~~~~~~~~~
+main.cpp: In function ‘void liberaMemoria(std::vector<char*>&)’:
+main.cpp:55:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   55 |     for(auto i = 0; i < entrada.size(); i++){
+      |                     ~~^~~~~~~~~~~~~~~~

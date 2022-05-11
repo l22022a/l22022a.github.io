@@ -1,0 +1,26 @@
+==772401== Conditional jump or move depends on uninitialised value(s)
+==772401==    at 0x498C402: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x1094DB: main (t2.cpp:39)
+==772401== 
+==772401== Use of uninitialised value of size 8
+==772401==    at 0x498C10B: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x1094DB: main (t2.cpp:39)
+==772401== 
+==772401== Conditional jump or move depends on uninitialised value(s)
+==772401==    at 0x498C11D: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x1094DB: main (t2.cpp:39)
+==772401== 
+==772401== Conditional jump or move depends on uninitialised value(s)
+==772401==    at 0x498C462: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==772401==    by 0x1094DB: main (t2.cpp:39)
+==772401== 
+==772401== 240 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==772401==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==772401==    by 0x1093A8: main (t2.cpp:21)
+==772401== 

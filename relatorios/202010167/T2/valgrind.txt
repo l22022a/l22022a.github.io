@@ -1,0 +1,8 @@
+==772383== 362 bytes in 10 blocks are definitely lost in loss record 1 of 2
+==772383==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==772383==    by 0x109431: main (main (12).cpp:13)
+==772383== 
+==772383== 362 bytes in 10 blocks are definitely lost in loss record 2 of 2
+==772383==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==772383==    by 0x1095CC: main (main (12).cpp:27)
+==772383== 

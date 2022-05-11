@@ -1,0 +1,33 @@
+t2vicentevgn.cpp:133:21: style: Local variable 'linha' shadows outer variable [shadowVariable]
+    for(std::string linha : linhas){
+                    ^
+t2vicentevgn.cpp:112:17: note: Shadowed declaration
+    std::string linha;
+                ^
+t2vicentevgn.cpp:133:21: note: Shadow variable
+    for(std::string linha : linhas){
+                    ^
+t2vicentevgn.cpp:89:29: performance: Function parameter 'linha' should be passed by const reference. [passedByValue]
+void infoLinhas(std::string linha){
+                            ^
+t2vicentevgn.cpp:81:9: style: Consider using std::count_if algorithm instead of a raw loop. [useStlAlgorithm]
+        numeroVogais++;
+        ^
+t2vicentevgn.cpp:120:8: error: Memory is allocated but not initialized: numeroCaracteres [uninitdata]
+      *numeroCaracteres+=linha.length();
+       ^
+t2vicentevgn.cpp:122:10: error: Memory is allocated but not initialized: numeroLinhasVazias [uninitdata]
+        *numeroLinhasVazias+=1;
+         ^
+t2vicentevgn.cpp:26:0: style: The function 'getNumeroCaracteres' is never used. [unusedFunction]
+
+^
+t2vicentevgn.cpp:6:0: style: The function 'getNumeroLinhas' is never used. [unusedFunction]
+
+^
+t2vicentevgn.cpp:45:0: style: The function 'getNumeroPalavras' is never used. [unusedFunction]
+
+^
+t2vicentevgn.cpp:94:0: style: The function 'infoArquivoLinhas' is never used. [unusedFunction]
+
+^

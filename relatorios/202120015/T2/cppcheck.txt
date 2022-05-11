@@ -1,0 +1,6 @@
+main.cpp:20:13: style: The scope of the variable 'contadorVogais' can be reduced. [variableScope]
+        int contadorVogais = 0;
+            ^
+main.cpp:21:13: style: The scope of the variable 'contadorVazios' can be reduced. [variableScope]
+        int contadorVazios = 0;
+            ^

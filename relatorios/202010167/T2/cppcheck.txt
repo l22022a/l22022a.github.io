@@ -1,0 +1,3 @@
+main (12).cpp:8:46: style: Unused variable: n [unusedVariable]
+      Contadorespaco = 0, Contadorvogal = 0, n;
+                                             ^
