@@ -1,0 +1,4 @@
+exemplo-caca.cpp: In member function ‘void Editor::move_end()’:
+exemplo-caca.cpp:144:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  144 |       if( cursor_y < linhas.size() && linhas[cursor_y] != nullptr)
+      |           ~~~~~~~~~^~~~~~~~~~~~~~~

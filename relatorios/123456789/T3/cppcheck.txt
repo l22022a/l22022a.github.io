@@ -1,0 +1,21 @@
+exemplo-caca.cpp:249:21: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+        for(n=0, it = linhas.begin();
+                    ^
+exemplo-caca.cpp:247:17: note: it is initialized
+        auto it = linhas.begin();
+                ^
+exemplo-caca.cpp:249:21: note: it is overwritten
+        for(n=0, it = linhas.begin();
+                    ^
+exemplo-caca.cpp:56:13: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+      char* vetor;
+            ^
+exemplo-caca.cpp:165:0: style: The function 'gruda_linha' is never used. [unusedFunction]
+
+^
+exemplo-caca.cpp:69:0: style: The function 'remove' is never used. [unusedFunction]
+
+^
+exemplo-caca.cpp:76:0: style: The function 'tamanho' is never used. [unusedFunction]
+
+^

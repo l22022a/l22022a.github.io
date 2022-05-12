@@ -1,0 +1,474 @@
+libcaca.cpp:133:0: style: The function 'caca_add_dirty_rect' is never used. [unusedFunction]
+
+^
+libcaca.cpp:173:0: style: The function 'caca_attr_to_ansi' is never used. [unusedFunction]
+
+^
+libcaca.cpp:177:0: style: The function 'caca_attr_to_ansi_bg' is never used. [unusedFunction]
+
+^
+libcaca.cpp:175:0: style: The function 'caca_attr_to_ansi_fg' is never used. [unusedFunction]
+
+^
+libcaca.cpp:183:0: style: The function 'caca_attr_to_argb64' is never used. [unusedFunction]
+
+^
+libcaca.cpp:181:0: style: The function 'caca_attr_to_rgb12_bg' is never used. [unusedFunction]
+
+^
+libcaca.cpp:179:0: style: The function 'caca_attr_to_rgb12_fg' is never used. [unusedFunction]
+
+^
+libcaca.cpp:117:0: style: The function 'caca_blit' is never used. [unusedFunction]
+
+^
+libcaca.cpp:319:0: style: The function 'caca_canvas_set_figfont' is never used. [unusedFunction]
+
+^
+libcaca.cpp:109:0: style: The function 'caca_clear_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:137:0: style: The function 'caca_clear_dirty_rect_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:196:0: style: The function 'caca_cp437_to_utf32' is never used. [unusedFunction]
+
+^
+libcaca.cpp:70:0: style: The function 'caca_create_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:375:0: style: The function 'caca_create_display_with_driver' is never used. [unusedFunction]
+
+^
+libcaca.cpp:256:0: style: The function 'caca_create_dither' is never used. [unusedFunction]
+
+^
+libcaca.cpp:246:0: style: The function 'caca_create_frame' is never used. [unusedFunction]
+
+^
+libcaca.cpp:124:0: style: The function 'caca_disable_dirty_rect' is never used. [unusedFunction]
+
+^
+libcaca.cpp:284:0: style: The function 'caca_dither_bitmap' is never used. [unusedFunction]
+
+^
+libcaca.cpp:219:0: style: The function 'caca_draw_box' is never used. [unusedFunction]
+
+^
+libcaca.cpp:214:0: style: The function 'caca_draw_circle' is never used. [unusedFunction]
+
+^
+libcaca.cpp:221:0: style: The function 'caca_draw_cp437_box' is never used. [unusedFunction]
+
+^
+libcaca.cpp:215:0: style: The function 'caca_draw_ellipse' is never used. [unusedFunction]
+
+^
+libcaca.cpp:207:0: style: The function 'caca_draw_line' is never used. [unusedFunction]
+
+^
+libcaca.cpp:208:0: style: The function 'caca_draw_polyline' is never used. [unusedFunction]
+
+^
+libcaca.cpp:220:0: style: The function 'caca_draw_thin_box' is never used. [unusedFunction]
+
+^
+libcaca.cpp:216:0: style: The function 'caca_draw_thin_ellipse' is never used. [unusedFunction]
+
+^
+libcaca.cpp:210:0: style: The function 'caca_draw_thin_line' is never used. [unusedFunction]
+
+^
+libcaca.cpp:211:0: style: The function 'caca_draw_thin_polyline' is never used. [unusedFunction]
+
+^
+libcaca.cpp:226:0: style: The function 'caca_draw_thin_triangle' is never used. [unusedFunction]
+
+^
+libcaca.cpp:224:0: style: The function 'caca_draw_triangle' is never used. [unusedFunction]
+
+^
+libcaca.cpp:126:0: style: The function 'caca_enable_dirty_rect' is never used. [unusedFunction]
+
+^
+libcaca.cpp:359:0: style: The function 'caca_export_area_to_memory' is never used. [unusedFunction]
+
+^
+libcaca.cpp:357:0: style: The function 'caca_export_canvas_to_memory' is never used. [unusedFunction]
+
+^
+libcaca.cpp:332:0: style: The function 'caca_file_close' is never used. [unusedFunction]
+
+^
+libcaca.cpp:337:0: style: The function 'caca_file_eof' is never used. [unusedFunction]
+
+^
+libcaca.cpp:336:0: style: The function 'caca_file_gets' is never used. [unusedFunction]
+
+^
+libcaca.cpp:331:0: style: The function 'caca_file_open' is never used. [unusedFunction]
+
+^
+libcaca.cpp:334:0: style: The function 'caca_file_read' is never used. [unusedFunction]
+
+^
+libcaca.cpp:333:0: style: The function 'caca_file_tell' is never used. [unusedFunction]
+
+^
+libcaca.cpp:335:0: style: The function 'caca_file_write' is never used. [unusedFunction]
+
+^
+libcaca.cpp:222:0: style: The function 'caca_fill_box' is never used. [unusedFunction]
+
+^
+libcaca.cpp:217:0: style: The function 'caca_fill_ellipse' is never used. [unusedFunction]
+
+^
+libcaca.cpp:228:0: style: The function 'caca_fill_triangle' is never used. [unusedFunction]
+
+^
+libcaca.cpp:230:0: style: The function 'caca_fill_triangle_textured' is never used. [unusedFunction]
+
+^
+libcaca.cpp:143:0: style: The function 'caca_flip' is never used. [unusedFunction]
+
+^
+libcaca.cpp:145:0: style: The function 'caca_flop' is never used. [unusedFunction]
+
+^
+libcaca.cpp:323:0: style: The function 'caca_flush_figlet' is never used. [unusedFunction]
+
+^
+libcaca.cpp:86:0: style: The function 'caca_free_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:295:0: style: The function 'caca_free_charfont' is never used. [unusedFunction]
+
+^
+libcaca.cpp:380:0: style: The function 'caca_free_display' is never used. [unusedFunction]
+
+^
+libcaca.cpp:286:0: style: The function 'caca_free_dither' is never used. [unusedFunction]
+
+^
+libcaca.cpp:311:0: style: The function 'caca_free_font' is never used. [unusedFunction]
+
+^
+libcaca.cpp:247:0: style: The function 'caca_free_frame' is never used. [unusedFunction]
+
+^
+libcaca.cpp:159:0: style: The function 'caca_get_attr' is never used. [unusedFunction]
+
+^
+libcaca.cpp:384:0: style: The function 'caca_get_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:84:0: style: The function 'caca_get_canvas_attrs' is never used. [unusedFunction]
+
+^
+libcaca.cpp:82:0: style: The function 'caca_get_canvas_chars' is never used. [unusedFunction]
+
+^
+libcaca.cpp:113:0: style: The function 'caca_get_canvas_handle_x' is never used. [unusedFunction]
+
+^
+libcaca.cpp:115:0: style: The function 'caca_get_canvas_handle_y' is never used. [unusedFunction]
+
+^
+libcaca.cpp:80:0: style: The function 'caca_get_canvas_height' is never used. [unusedFunction]
+
+^
+libcaca.cpp:78:0: style: The function 'caca_get_canvas_width' is never used. [unusedFunction]
+
+^
+libcaca.cpp:101:0: style: The function 'caca_get_char' is never used. [unusedFunction]
+
+^
+libcaca.cpp:130:0: style: The function 'caca_get_dirty_rect' is never used. [unusedFunction]
+
+^
+libcaca.cpp:128:0: style: The function 'caca_get_dirty_rect_count' is never used. [unusedFunction]
+
+^
+libcaca.cpp:378:0: style: The function 'caca_get_display_driver' is never used. [unusedFunction]
+
+^
+libcaca.cpp:377:0: style: The function 'caca_get_display_driver_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:389:0: style: The function 'caca_get_display_height' is never used. [unusedFunction]
+
+^
+libcaca.cpp:387:0: style: The function 'caca_get_display_time' is never used. [unusedFunction]
+
+^
+libcaca.cpp:388:0: style: The function 'caca_get_display_width' is never used. [unusedFunction]
+
+^
+libcaca.cpp:283:0: style: The function 'caca_get_dither_algorithm' is never used. [unusedFunction]
+
+^
+libcaca.cpp:281:0: style: The function 'caca_get_dither_algorithm_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:271:0: style: The function 'caca_get_dither_antialias' is never used. [unusedFunction]
+
+^
+libcaca.cpp:269:0: style: The function 'caca_get_dither_antialias_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:263:0: style: The function 'caca_get_dither_brightness' is never used. [unusedFunction]
+
+^
+libcaca.cpp:279:0: style: The function 'caca_get_dither_charset' is never used. [unusedFunction]
+
+^
+libcaca.cpp:277:0: style: The function 'caca_get_dither_charset_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:275:0: style: The function 'caca_get_dither_color' is never used. [unusedFunction]
+
+^
+libcaca.cpp:273:0: style: The function 'caca_get_dither_color_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:267:0: style: The function 'caca_get_dither_contrast' is never used. [unusedFunction]
+
+^
+libcaca.cpp:265:0: style: The function 'caca_get_dither_gamma' is never used. [unusedFunction]
+
+^
+libcaca.cpp:401:0: style: The function 'caca_get_event' is never used. [unusedFunction]
+
+^
+libcaca.cpp:416:0: style: The function 'caca_get_event_key_ch' is never used. [unusedFunction]
+
+^
+libcaca.cpp:420:0: style: The function 'caca_get_event_key_utf32' is never used. [unusedFunction]
+
+^
+libcaca.cpp:421:0: style: The function 'caca_get_event_key_utf8' is never used. [unusedFunction]
+
+^
+libcaca.cpp:422:0: style: The function 'caca_get_event_mouse_button' is never used. [unusedFunction]
+
+^
+libcaca.cpp:423:0: style: The function 'caca_get_event_mouse_x' is never used. [unusedFunction]
+
+^
+libcaca.cpp:424:0: style: The function 'caca_get_event_mouse_y' is never used. [unusedFunction]
+
+^
+libcaca.cpp:426:0: style: The function 'caca_get_event_resize_height' is never used. [unusedFunction]
+
+^
+libcaca.cpp:425:0: style: The function 'caca_get_event_resize_width' is never used. [unusedFunction]
+
+^
+libcaca.cpp:412:0: style: The function 'caca_get_event_type' is never used. [unusedFunction]
+
+^
+libcaca.cpp:361:0: style: The function 'caca_get_export_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:308:0: style: The function 'caca_get_font_blocks' is never used. [unusedFunction]
+
+^
+libcaca.cpp:307:0: style: The function 'caca_get_font_height' is never used. [unusedFunction]
+
+^
+libcaca.cpp:305:0: style: The function 'caca_get_font_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:306:0: style: The function 'caca_get_font_width' is never used. [unusedFunction]
+
+^
+libcaca.cpp:242:0: style: The function 'caca_get_frame_count' is never used. [unusedFunction]
+
+^
+libcaca.cpp:244:0: style: The function 'caca_get_frame_name' is never used. [unusedFunction]
+
+^
+libcaca.cpp:356:0: style: The function 'caca_get_import_list' is never used. [unusedFunction]
+
+^
+libcaca.cpp:410:0: style: The function 'caca_get_mouse_x' is never used. [unusedFunction]
+
+^
+libcaca.cpp:411:0: style: The function 'caca_get_mouse_y' is never used. [unusedFunction]
+
+^
+libcaca.cpp:90:0: style: The function 'caca_get_version' is never used. [unusedFunction]
+
+^
+libcaca.cpp:93:0: style: The function 'caca_gotoxy' is never used. [unusedFunction]
+
+^
+libcaca.cpp:354:0: style: The function 'caca_import_area_from_file' is never used. [unusedFunction]
+
+^
+libcaca.cpp:351:0: style: The function 'caca_import_area_from_memory' is never used. [unusedFunction]
+
+^
+libcaca.cpp:349:0: style: The function 'caca_import_canvas_from_file' is never used. [unusedFunction]
+
+^
+libcaca.cpp:347:0: style: The function 'caca_import_canvas_from_memory' is never used. [unusedFunction]
+
+^
+libcaca.cpp:141:0: style: The function 'caca_invert' is never used. [unusedFunction]
+
+^
+libcaca.cpp:294:0: style: The function 'caca_load_charfont' is never used. [unusedFunction]
+
+^
+libcaca.cpp:304:0: style: The function 'caca_load_font' is never used. [unusedFunction]
+
+^
+libcaca.cpp:72:0: style: The function 'caca_manage_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:105:0: style: The function 'caca_printf' is never used. [unusedFunction]
+
+^
+libcaca.cpp:167:0: style: The function 'caca_put_attr' is never used. [unusedFunction]
+
+^
+libcaca.cpp:99:0: style: The function 'caca_put_char' is never used. [unusedFunction]
+
+^
+libcaca.cpp:322:0: style: The function 'caca_put_figchar' is never used. [unusedFunction]
+
+^
+libcaca.cpp:103:0: style: The function 'caca_put_str' is never used. [unusedFunction]
+
+^
+libcaca.cpp:88:0: style: The function 'caca_rand' is never used. [unusedFunction]
+
+^
+libcaca.cpp:385:0: style: The function 'caca_refresh_display' is never used. [unusedFunction]
+
+^
+libcaca.cpp:135:0: style: The function 'caca_remove_dirty_rect' is never used. [unusedFunction]
+
+^
+libcaca.cpp:309:0: style: The function 'caca_render_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:147:0: style: The function 'caca_rotate_180' is never used. [unusedFunction]
+
+^
+libcaca.cpp:149:0: style: The function 'caca_rotate_left' is never used. [unusedFunction]
+
+^
+libcaca.cpp:151:0: style: The function 'caca_rotate_right' is never used. [unusedFunction]
+
+^
+libcaca.cpp:161:0: style: The function 'caca_set_attr' is never used. [unusedFunction]
+
+^
+libcaca.cpp:120:0: style: The function 'caca_set_canvas_boundaries' is never used. [unusedFunction]
+
+^
+libcaca.cpp:111:0: style: The function 'caca_set_canvas_handle' is never used. [unusedFunction]
+
+^
+libcaca.cpp:76:0: style: The function 'caca_set_canvas_size' is never used. [unusedFunction]
+
+^
+libcaca.cpp:169:0: style: The function 'caca_set_color_ansi' is never used. [unusedFunction]
+
+^
+libcaca.cpp:171:0: style: The function 'caca_set_color_argb' is never used. [unusedFunction]
+
+^
+libcaca.cpp:392:0: style: The function 'caca_set_cursor' is never used. [unusedFunction]
+
+^
+libcaca.cpp:379:0: style: The function 'caca_set_display_driver' is never used. [unusedFunction]
+
+^
+libcaca.cpp:386:0: style: The function 'caca_set_display_time' is never used. [unusedFunction]
+
+^
+libcaca.cpp:390:0: style: The function 'caca_set_display_title' is never used. [unusedFunction]
+
+^
+libcaca.cpp:280:0: style: The function 'caca_set_dither_algorithm' is never used. [unusedFunction]
+
+^
+libcaca.cpp:268:0: style: The function 'caca_set_dither_antialias' is never used. [unusedFunction]
+
+^
+libcaca.cpp:262:0: style: The function 'caca_set_dither_brightness' is never used. [unusedFunction]
+
+^
+libcaca.cpp:276:0: style: The function 'caca_set_dither_charset' is never used. [unusedFunction]
+
+^
+libcaca.cpp:272:0: style: The function 'caca_set_dither_color' is never used. [unusedFunction]
+
+^
+libcaca.cpp:266:0: style: The function 'caca_set_dither_contrast' is never used. [unusedFunction]
+
+^
+libcaca.cpp:264:0: style: The function 'caca_set_dither_gamma' is never used. [unusedFunction]
+
+^
+libcaca.cpp:259:0: style: The function 'caca_set_dither_palette' is never used. [unusedFunction]
+
+^
+libcaca.cpp:320:0: style: The function 'caca_set_figfont_smush' is never used. [unusedFunction]
+
+^
+libcaca.cpp:321:0: style: The function 'caca_set_figfont_width' is never used. [unusedFunction]
+
+^
+libcaca.cpp:243:0: style: The function 'caca_set_frame' is never used. [unusedFunction]
+
+^
+libcaca.cpp:245:0: style: The function 'caca_set_frame_name' is never used. [unusedFunction]
+
+^
+libcaca.cpp:391:0: style: The function 'caca_set_mouse' is never used. [unusedFunction]
+
+^
+libcaca.cpp:153:0: style: The function 'caca_stretch_left' is never used. [unusedFunction]
+
+^
+libcaca.cpp:155:0: style: The function 'caca_stretch_right' is never used. [unusedFunction]
+
+^
+libcaca.cpp:165:0: style: The function 'caca_toggle_attr' is never used. [unusedFunction]
+
+^
+libcaca.cpp:74:0: style: The function 'caca_unmanage_canvas' is never used. [unusedFunction]
+
+^
+libcaca.cpp:163:0: style: The function 'caca_unset_attr' is never used. [unusedFunction]
+
+^
+libcaca.cpp:198:0: style: The function 'caca_utf32_is_fullwidth' is never used. [unusedFunction]
+
+^
+libcaca.cpp:197:0: style: The function 'caca_utf32_to_ascii' is never used. [unusedFunction]
+
+^
+libcaca.cpp:195:0: style: The function 'caca_utf32_to_cp437' is never used. [unusedFunction]
+
+^
+libcaca.cpp:194:0: style: The function 'caca_utf32_to_utf8' is never used. [unusedFunction]
+
+^
+libcaca.cpp:193:0: style: The function 'caca_utf8_to_utf32' is never used. [unusedFunction]
+
+^
+libcaca.cpp:107:0: style: The function 'caca_vprintf' is never used. [unusedFunction]
+
+^
+libcaca.cpp:95:0: style: The function 'caca_wherex' is never used. [unusedFunction]
+
+^
+libcaca.cpp:97:0: style: The function 'caca_wherey' is never used. [unusedFunction]
+
+^
