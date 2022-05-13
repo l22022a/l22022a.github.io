@@ -1,0 +1,16 @@
+*** relatorios/123456789/T3/saida.txt	2022-05-13 08:29:10.280123184 -0300
+--- ./entradas/t3/saida.txt	2022-05-11 19:10:06.910338542 -0300
+***************
+*** 1,2 ****
+! ola mundo
+  sou eu
+--- 1,9 ----
+! aola mundo    b
+  sou eu
++               a
++ abcdefgh
++ 
++ 
++ 
++ eeeeee
++ eeee
