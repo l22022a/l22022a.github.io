@@ -1,0 +1,220 @@
+==1070615== Conditional jump or move depends on uninitialised value(s)
+==1070615==    at 0x483EF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x499ABCD: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10E119: Editor::insere_char(char) (trab3.cpp:208)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Conditional jump or move depends on uninitialised value(s)
+==1070615==    at 0x483EF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DCF2: Editor::tamanholinha(int) (trab3.cpp:148)
+==1070615==    by 0x10DF40: Editor::insere_char(char) (trab3.cpp:191)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Conditional jump or move depends on uninitialised value(s)
+==1070615==    at 0x483F0B7: strcpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF96: Editor::insere_char(char) (trab3.cpp:195)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 8
+==1070615==    at 0x10DCBF: Editor::tamanholinha(int) (trab3.cpp:145)
+==1070615==    by 0x10E3D4: Editor::remove_char() (trab3.cpp:252)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
+==1070615==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x1100F5: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==1070615==    by 0x10FF41: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
+==1070615==    by 0x10FD71: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==1070615==    by 0x10F470: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==1070615==    by 0x10EFB3: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
+==1070615==    by 0x10D77B: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (trab3.cpp:58)
+==1070615==    by 0x10D91C: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:89)
+==1070615==    by 0x10D3E7: main (trab3.cpp:432)
+==1070615== 
+==1070615== Invalid write of size 1
+==1070615==    at 0x483EC4C: strcat (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E6AA: Editor::gruda_linha() (trab3.cpp:292)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f5 is 0 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid write of size 1
+==1070615==    at 0x483EC5E: strcat (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E6AA: Editor::gruda_linha() (trab3.cpp:292)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f8 is 3 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 1
+==1070615==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x499ABCD: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10E6BD: Editor::gruda_linha() (trab3.cpp:293)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f5 is 0 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 1
+==1070615==    at 0x48436E0: mempcpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x4AF3631: _IO_new_file_xsputn (fileops.c:1236)
+==1070615==    by 0x4AF3631: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==1070615==    by 0x4AE73C0: fwrite (iofwrite.c:39)
+==1070615==    by 0x499A823: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499ABDB: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10E6BD: Editor::gruda_linha() (trab3.cpp:293)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f5 is 0 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 1
+==1070615==    at 0x48436EE: mempcpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x4AF3631: _IO_new_file_xsputn (fileops.c:1236)
+==1070615==    by 0x4AF3631: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==1070615==    by 0x4AE73C0: fwrite (iofwrite.c:39)
+==1070615==    by 0x499A823: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499ABDB: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10E6BD: Editor::gruda_linha() (trab3.cpp:293)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f6 is 1 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 1
+==1070615==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x499ABCD: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10DA65: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:98)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc06f5 is 0 bytes after a block of size 5 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10DF68: Editor::insere_char(char) (trab3.cpp:194)
+==1070615==    by 0x10ECAF: Editor::verifica_fim() (trab3.cpp:394)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Syscall param write(buf) points to uninitialised byte(s)
+==1070615==    at 0x4B72077: write (write.c:26)
+==1070615==    by 0x493377D: std::__basic_file<char>::xsputn(char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x4972EA0: std::basic_filebuf<char, std::char_traits<char> >::_M_convert_to_external(char*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x49732FB: std::basic_filebuf<char, std::char_traits<char> >::overflow(int) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x497105C: std::basic_filebuf<char, std::char_traits<char> >::sync() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x49997A2: std::ostream::flush() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10DA7A: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:98)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc0fa5 is 5 bytes inside a block of size 8,192 alloc'd
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x4972D03: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x4976F66: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x4977FE7: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10D9D8: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:95)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 1
+==1070615==    at 0x483EF46: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x499ABCD: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10DA65: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:98)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc0d30 is 0 bytes inside a block of size 7 free'd
+==1070615==    at 0x483D74F: operator delete[](void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E71C: Editor::gruda_linha() (trab3.cpp:298)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Block was alloc'd at
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E924: Editor::quebra_linha() (trab3.cpp:329)
+==1070615==    by 0x10EC49: Editor::verifica_fim() (trab3.cpp:388)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 2
+==1070615==    at 0x4842B30: memmove (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x49A8B27: std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499A823: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499ABDB: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10DA65: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:98)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc0d30 is 0 bytes inside a block of size 7 free'd
+==1070615==    at 0x483D74F: operator delete[](void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E71C: Editor::gruda_linha() (trab3.cpp:298)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Block was alloc'd at
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E924: Editor::quebra_linha() (trab3.cpp:329)
+==1070615==    by 0x10EC49: Editor::verifica_fim() (trab3.cpp:388)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid read of size 2
+==1070615==    at 0x4842B3F: memmove (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x49A8B27: std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499A823: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x499ABDB: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1070615==    by 0x10DA65: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (trab3.cpp:98)
+==1070615==    by 0x10EC81: Editor::verifica_fim() (trab3.cpp:391)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Address 0x4dc0d34 is 4 bytes inside a block of size 7 free'd
+==1070615==    at 0x483D74F: operator delete[](void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E71C: Editor::gruda_linha() (trab3.cpp:298)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Block was alloc'd at
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E924: Editor::quebra_linha() (trab3.cpp:329)
+==1070615==    by 0x10EC49: Editor::verifica_fim() (trab3.cpp:388)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== Invalid free() / delete / delete[] / realloc()
+==1070615==    at 0x483D74F: operator delete[](void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10D840: Editor::destroi() (trab3.cpp:79)
+==1070615==    by 0x10D6AB: Editor::finaliza() (trab3.cpp:46)
+==1070615==    by 0x10D437: main (trab3.cpp:438)
+==1070615==  Address 0x4dc0d30 is 0 bytes inside a block of size 7 free'd
+==1070615==    at 0x483D74F: operator delete[](void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E71C: Editor::gruda_linha() (trab3.cpp:298)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615==  Block was alloc'd at
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E924: Editor::quebra_linha() (trab3.cpp:329)
+==1070615==    by 0x10EC49: Editor::verifica_fim() (trab3.cpp:388)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 
+==1070615== 8 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==1070615==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070615==    by 0x10E671: Editor::gruda_linha() (trab3.cpp:290)
+==1070615==    by 0x10E3B1: Editor::remove_char() (trab3.cpp:249)
+==1070615==    by 0x10EC27: Editor::verifica_fim() (trab3.cpp:382)
+==1070615==    by 0x10D411: main (trab3.cpp:435)
+==1070615== 

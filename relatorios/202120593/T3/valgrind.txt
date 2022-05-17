@@ -1,0 +1,41 @@
+==1070697== Invalid read of size 8
+==1070697==    at 0x10B511: Editor::remove_char() (t3.cpp:293)
+==1070697==    by 0x10C5BD: Editor::verifica_fim() (t3.cpp:581)
+==1070697==    by 0x10A658: main (t3.cpp:631)
+==1070697==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
+==1070697==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070697==    by 0x10E365: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==1070697==    by 0x10E0B2: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
+==1070697==    by 0x10DDC9: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==1070697==    by 0x10D158: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==1070697==    by 0x10C927: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
+==1070697==    by 0x10A9D7: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:56)
+==1070697==    by 0x10AB5A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:87)
+==1070697==    by 0x10A62E: main (t3.cpp:628)
+==1070697== 
+==1070697== Invalid read of size 8
+==1070697==    at 0x10AF24: Editor::insere_char(char) (t3.cpp:149)
+==1070697==    by 0x10C631: Editor::verifica_fim() (t3.cpp:592)
+==1070697==    by 0x10A658: main (t3.cpp:631)
+==1070697==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
+==1070697==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070697==    by 0x10E365: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==1070697==    by 0x10E0B2: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
+==1070697==    by 0x10DDC9: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==1070697==    by 0x10D158: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==1070697==    by 0x10C927: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
+==1070697==    by 0x10A9D7: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:56)
+==1070697==    by 0x10AB5A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:87)
+==1070697==    by 0x10A62E: main (t3.cpp:628)
+==1070697== 
+==1070697== Conditional jump or move depends on uninitialised value(s)
+==1070697==    at 0x10AF2A: Editor::insere_char(char) (t3.cpp:149)
+==1070697==    by 0x10C631: Editor::verifica_fim() (t3.cpp:592)
+==1070697==    by 0x10A658: main (t3.cpp:631)
+==1070697== 
+==1070697== 0 bytes in 4 blocks are definitely lost in loss record 1 of 1
+==1070697==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1070697==    by 0x10B062: Editor::insere_char(char) (t3.cpp:179)
+==1070697==    by 0x10C631: Editor::verifica_fim() (t3.cpp:592)
+==1070697==    by 0x10A658: main (t3.cpp:631)
+==1070697== 
