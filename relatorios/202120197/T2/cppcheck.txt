@@ -1,0 +1,6 @@
+t2.cpp:12:11: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+    char *vetor;
+          ^
+t2.cpp:58:36: style: Parameter 'linhas' can be declared with const [constParameter]
+void liberamemoria(vector<char *> &linhas)
+                                   ^

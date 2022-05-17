@@ -1,16 +1,16 @@
-==772420== Invalid read of size 1
-==772420==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==772420==    by 0x109532: verificaLinhas(std::vector<char*, std::allocator<char*> >&, int) (main.cpp:25)
-==772420==    by 0x1099F7: main (main.cpp:76)
-==772420==  Address 0x4dbcdd9 is 0 bytes after a block of size 57 alloc'd
-==772420==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==772420==    by 0x109996: main (main.cpp:71)
-==772420== 
-==772420== Invalid read of size 1
-==772420==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==772420==    by 0x10956D: verificaLinhas(std::vector<char*, std::allocator<char*> >&, int) (main.cpp:28)
-==772420==    by 0x1099F7: main (main.cpp:76)
-==772420==  Address 0x4dbcdd9 is 0 bytes after a block of size 57 alloc'd
-==772420==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==772420==    by 0x109996: main (main.cpp:71)
-==772420== 
+==1068633== Invalid read of size 1
+==1068633==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1068633==    by 0x109532: verificaLinhas(std::vector<char*, std::allocator<char*> >&, int) (main.cpp:25)
+==1068633==    by 0x1099F7: main (main.cpp:76)
+==1068633==  Address 0x4dbcdd9 is 0 bytes after a block of size 57 alloc'd
+==1068633==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1068633==    by 0x109996: main (main.cpp:71)
+==1068633== 
+==1068633== Invalid read of size 1
+==1068633==    at 0x483EF54: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1068633==    by 0x10956D: verificaLinhas(std::vector<char*, std::allocator<char*> >&, int) (main.cpp:28)
+==1068633==    by 0x1099F7: main (main.cpp:76)
+==1068633==  Address 0x4dbcdd9 is 0 bytes after a block of size 57 alloc'd
+==1068633==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1068633==    by 0x109996: main (main.cpp:71)
+==1068633== 

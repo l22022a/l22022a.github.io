@@ -1,1 +1,44 @@
-valgrind: ./a.out: No such file or directory
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C402: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF12: main (T2Luisfelipe.cpp:127)
+==1068273== 
+==1068273== Use of uninitialised value of size 8
+==1068273==    at 0x498C10B: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF12: main (T2Luisfelipe.cpp:127)
+==1068273== 
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C11D: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF12: main (T2Luisfelipe.cpp:127)
+==1068273== 
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C462: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF12: main (T2Luisfelipe.cpp:127)
+==1068273== 
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C402: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF38: main (T2Luisfelipe.cpp:128)
+==1068273== 
+==1068273== Use of uninitialised value of size 8
+==1068273==    at 0x498C10B: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF38: main (T2Luisfelipe.cpp:128)
+==1068273== 
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C11D: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x498C42C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF38: main (T2Luisfelipe.cpp:128)
+==1068273== 
+==1068273== Conditional jump or move depends on uninitialised value(s)
+==1068273==    at 0x498C462: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x499AD5E: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1068273==    by 0x10AF38: main (T2Luisfelipe.cpp:128)
+==1068273== 

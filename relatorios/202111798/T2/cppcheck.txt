@@ -1,0 +1,33 @@
+T2Luisfelipe.cpp:133:21: style: Local variable 'linha' shadows outer variable [shadowVariable]
+    for(std::string linha : linhas){
+                    ^
+T2Luisfelipe.cpp:112:17: note: Shadowed declaration
+    std::string linha;
+                ^
+T2Luisfelipe.cpp:133:21: note: Shadow variable
+    for(std::string linha : linhas){
+                    ^
+T2Luisfelipe.cpp:89:29: performance: Function parameter 'linha' should be passed by const reference. [passedByValue]
+void infoLinhas(std::string linha){
+                            ^
+T2Luisfelipe.cpp:81:9: style: Consider using std::count_if algorithm instead of a raw loop. [useStlAlgorithm]
+        numeroVogais++;
+        ^
+T2Luisfelipe.cpp:120:8: error: Memory is allocated but not initialized: numeroCaracteres [uninitdata]
+      *numeroCaracteres+=linha.length();
+       ^
+T2Luisfelipe.cpp:122:10: error: Memory is allocated but not initialized: numeroLinhasVazias [uninitdata]
+        *numeroLinhasVazias+=1;
+         ^
+T2Luisfelipe.cpp:26:0: style: The function 'getNumeroCaracteres' is never used. [unusedFunction]
+
+^
+T2Luisfelipe.cpp:6:0: style: The function 'getNumeroLinhas' is never used. [unusedFunction]
+
+^
+T2Luisfelipe.cpp:45:0: style: The function 'getNumeroPalavras' is never used. [unusedFunction]
+
+^
+T2Luisfelipe.cpp:94:0: style: The function 'infoArquivoLinhas' is never used. [unusedFunction]
+
+^
