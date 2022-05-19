@@ -1,30 +1,18 @@
-trab3.cpp:291:33: error: Memory leak: cima [memleak]
-                                cima = linhas[cursor_y - 1];
-                                ^
-trab3.cpp:291:38: style: Variable 'cima' is reassigned a value before the old one has been used. [redundantAssignment]
-                                cima = linhas[cursor_y - 1];
-                                     ^
-trab3.cpp:290:38: note: cima is assigned
-                                cima = new char[tamanholinha(cursor_y)+ tamanholinha(cursor_y-1)];
-                                     ^
-trab3.cpp:291:38: note: cima is overwritten
-                                cima = linhas[cursor_y - 1];
-                                     ^
-trab3.cpp:410:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+codigo10.cpp:419:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
-trab3.cpp:406:25: note: it is initialized
+codigo10.cpp:415:25: note: it is initialized
                 auto it = linhas.begin();
                         ^
-trab3.cpp:410:32: note: it is overwritten
+codigo10.cpp:419:32: note: it is overwritten
                 for (n = 0, it = linhas.begin();
                                ^
-trab3.cpp:51:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+codigo10.cpp:51:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
                 char *vetor;
                       ^
-trab3.cpp:347:0: style: The function 'legenda' is never used. [unusedFunction]
+codigo10.cpp:356:0: style: The function 'legenda' is never used. [unusedFunction]
 
 ^
-trab3.cpp:64:0: style: The function 'remove' is never used. [unusedFunction]
+codigo10.cpp:64:0: style: The function 'remove' is never used. [unusedFunction]
 
 ^

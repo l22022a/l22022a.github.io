@@ -1,0 +1,52 @@
+==1197257== Invalid read of size 1
+==1197257==    at 0x10B339: Editor::remove_char() (t3.cpp:220)
+==1197257==    by 0x10B771: Editor::verifica_fim() (t3.cpp:323)
+==1197257==    by 0x10A678: main (t3.cpp:376)
+==1197257==  Address 0x4dbf29e is 4 bytes after a block of size 10 alloc'd
+==1197257==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1197257==    by 0x10A99A: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:54)
+==1197257==    by 0x10AB7A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:88)
+==1197257==    by 0x10A64E: main (t3.cpp:373)
+==1197257== 
+==1197257== Invalid read of size 1
+==1197257==    at 0x10B0D6: Editor::insere_char(char) (t3.cpp:176)
+==1197257==    by 0x10B7ED: Editor::verifica_fim() (t3.cpp:335)
+==1197257==    by 0x10A678: main (t3.cpp:376)
+==1197257==  Address 0x4dbf29e is 4 bytes after a block of size 10 alloc'd
+==1197257==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1197257==    by 0x10A99A: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:54)
+==1197257==    by 0x10AB7A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:88)
+==1197257==    by 0x10A64E: main (t3.cpp:373)
+==1197257== 
+==1197257== Invalid read of size 8
+==1197257==    at 0x10B32A: Editor::remove_char() (t3.cpp:220)
+==1197257==    by 0x10B771: Editor::verifica_fim() (t3.cpp:323)
+==1197257==    by 0x10A678: main (t3.cpp:376)
+==1197257==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
+==1197257==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1197257==    by 0x10CC53: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==1197257==    by 0x10CAA0: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
+==1197257==    by 0x10C8A1: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==1197257==    by 0x10BFA0: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==1197257==    by 0x10BAE3: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
+==1197257==    by 0x10A9F7: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:57)
+==1197257==    by 0x10AB7A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:88)
+==1197257==    by 0x10A64E: main (t3.cpp:373)
+==1197257== 
+==1197257== 
+==1197257== Process terminating with default action of signal 11 (SIGSEGV)
+==1197257==  Access not within mapped region at address 0xF
+==1197257==    at 0x10B339: Editor::remove_char() (t3.cpp:220)
+==1197257==    by 0x10B771: Editor::verifica_fim() (t3.cpp:323)
+==1197257==    by 0x10A678: main (t3.cpp:376)
+==1197257==  If you believe this happened as a result of a stack
+==1197257==  overflow in your program's main thread (unlikely but
+==1197257==  possible), you can try to increase the size of the
+==1197257==  main thread stack using the --main-stacksize= flag.
+==1197257==  The main thread stack size used in this run was 8388608.
+==1197257== 10 bytes in 1 blocks are definitely lost in loss record 2 of 5
+==1197257==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1197257==    by 0x10A99A: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:54)
+==1197257==    by 0x10AB7A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:88)
+==1197257==    by 0x10A64E: main (t3.cpp:373)
+==1197257== 

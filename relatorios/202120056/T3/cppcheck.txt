@@ -1,0 +1,45 @@
+t3.cpp:270:29: error: Null pointer dereference [nullPointer]
+                    baixo = nullptr;
+                            ^
+t3.cpp:271:28: error: Null pointer dereference [nullPointer]
+                    insere(baixo);
+                           ^
+t3.cpp:367:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+                for (n = 0, it = linhas.begin();
+                               ^
+t3.cpp:363:25: note: it is initialized
+                auto it = linhas.begin();
+                        ^
+t3.cpp:367:32: note: it is overwritten
+                for (n = 0, it = linhas.begin();
+                               ^
+t3.cpp:49:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+                char *vetor;
+                      ^
+t3.cpp:229:19: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+            char* vetor;
+                  ^
+t3.cpp:265:19: style: The scope of the variable 'vetor1' can be reduced. [variableScope]
+            char* vetor1;
+                  ^
+t3.cpp:266:19: style: The scope of the variable 'vetor2' can be reduced. [variableScope]
+            char* vetor2;
+                  ^
+t3.cpp:208:25: style: Local variable 'tamanho' shadows outer function [shadowFunction]
+                    int tamanho = velho.size();
+                        ^
+t3.cpp:68:13: note: Shadowed declaration
+        int tamanho(void) const {
+            ^
+t3.cpp:208:25: note: Shadow variable
+                    int tamanho = velho.size();
+                        ^
+t3.cpp:306:0: style: The function 'legenda' is never used. [unusedFunction]
+
+^
+t3.cpp:62:0: style: The function 'remove' is never used. [unusedFunction]
+
+^
+t3.cpp:68:0: style: The function 'tamanho' is never used. [unusedFunction]
+
+^

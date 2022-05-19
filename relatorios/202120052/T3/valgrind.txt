@@ -1,15 +1,15 @@
-==1070666== Invalid read of size 8
-==1070666==    at 0x10E030: Editor::remove_char() (main.cpp:193)
-==1070666==    by 0x10EA75: Editor::verifica_fim() (main.cpp:338)
-==1070666==    by 0x10D3F1: main (main.cpp:387)
-==1070666==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
-==1070666==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1070666==    by 0x11027D: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
-==1070666==    by 0x110035: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
-==1070666==    by 0x10FDCB: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
-==1070666==    by 0x10F378: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
-==1070666==    by 0x10EDCF: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
-==1070666==    by 0x10D75B: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (main.cpp:58)
-==1070666==    by 0x10D8FC: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (main.cpp:84)
-==1070666==    by 0x10D3C7: main (main.cpp:384)
-==1070666== 
+==1197023== Invalid read of size 8
+==1197023==    at 0x10E030: Editor::remove_char() (main.cpp:193)
+==1197023==    by 0x10EA75: Editor::verifica_fim() (main.cpp:338)
+==1197023==    by 0x10D3F1: main (main.cpp:387)
+==1197023==  Address 0x4dbf390 is 0 bytes after a block of size 16 alloc'd
+==1197023==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1197023==    by 0x11027D: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:114)
+==1197023==    by 0x110035: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:443)
+==1197023==    by 0x10FDCB: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:343)
+==1197023==    by 0x10F378: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==1197023==    by 0x10EDCF: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1195)
+==1197023==    by 0x10D75B: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (main.cpp:58)
+==1197023==    by 0x10D8FC: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (main.cpp:84)
+==1197023==    by 0x10D3C7: main (main.cpp:384)
+==1197023== 

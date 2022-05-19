@@ -1,0 +1,17 @@
+==1197762== Invalid write of size 1
+==1197762==    at 0x10B2D6: Editor::insere_char(char) (t3.cpp:179)
+==1197762==    by 0x10BFA3: Editor::verifica_fim() (t3.cpp:352)
+==1197762==    by 0x10A698: main (t3.cpp:391)
+==1197762==  Address 0x104dbf3cf is not stack'd, malloc'd or (recently) free'd
+==1197762== 
+==1197762== 
+==1197762== Process terminating with default action of signal 11 (SIGSEGV)
+==1197762==  Access not within mapped region at address 0x104DBF3CF
+==1197762==    at 0x10B2D6: Editor::insere_char(char) (t3.cpp:179)
+==1197762==    by 0x10BFA3: Editor::verifica_fim() (t3.cpp:352)
+==1197762==    by 0x10A698: main (t3.cpp:391)
+==1197762==  If you believe this happened as a result of a stack
+==1197762==  overflow in your program's main thread (unlikely but
+==1197762==  possible), you can try to increase the size of the
+==1197762==  main thread stack using the --main-stacksize= flag.
+==1197762==  The main thread stack size used in this run was 8388608.
