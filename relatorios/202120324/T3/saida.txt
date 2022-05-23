@@ -1,6 +1,6 @@
-aola mundo    b 
+aola mund    b
 sou eu
-              a 
+             a
 abcdefgh
 
 

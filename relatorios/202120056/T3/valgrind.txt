@@ -1,17 +1,37 @@
-==1197762== Invalid write of size 1
-==1197762==    at 0x10B2D6: Editor::insere_char(char) (t3.cpp:179)
-==1197762==    by 0x10BFA3: Editor::verifica_fim() (t3.cpp:352)
-==1197762==    by 0x10A698: main (t3.cpp:391)
-==1197762==  Address 0x104dbf3cf is not stack'd, malloc'd or (recently) free'd
-==1197762== 
-==1197762== 
-==1197762== Process terminating with default action of signal 11 (SIGSEGV)
-==1197762==  Access not within mapped region at address 0x104DBF3CF
-==1197762==    at 0x10B2D6: Editor::insere_char(char) (t3.cpp:179)
-==1197762==    by 0x10BFA3: Editor::verifica_fim() (t3.cpp:352)
-==1197762==    by 0x10A698: main (t3.cpp:391)
-==1197762==  If you believe this happened as a result of a stack
-==1197762==  overflow in your program's main thread (unlikely but
-==1197762==  possible), you can try to increase the size of the
-==1197762==  main thread stack using the --main-stacksize= flag.
-==1197762==  The main thread stack size used in this run was 8388608.
+==1459169== Invalid write of size 1
+==1459169==    at 0x10BA98: Editor::gruda_linha() (t3.cpp:293)
+==1459169==    by 0x10B47C: Editor::remove_char() (t3.cpp:220)
+==1459169==    by 0x10C0B1: Editor::verifica_fim() (t3.cpp:389)
+==1459169==    by 0x10A658: main (t3.cpp:438)
+==1459169==  Address 0x4dbf849 is 0 bytes after a block of size 9 alloc'd
+==1459169==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1459169==    by 0x10B95D: Editor::gruda_linha() (t3.cpp:282)
+==1459169==    by 0x10B47C: Editor::remove_char() (t3.cpp:220)
+==1459169==    by 0x10C0B1: Editor::verifica_fim() (t3.cpp:389)
+==1459169==    by 0x10A658: main (t3.cpp:438)
+==1459169== 
+==1459169== Conditional jump or move depends on uninitialised value(s)
+==1459169==    at 0x483EF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1459169==    by 0x499ABCD: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1459169==    by 0x10ACA3: Editor::salva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:84)
+==1459169==    by 0x10C0F7: Editor::verifica_fim() (t3.cpp:397)
+==1459169==    by 0x10A658: main (t3.cpp:438)
+==1459169== 
+==1459169== 6 bytes in 3 blocks are definitely lost in loss record 1 of 3
+==1459169==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1459169==    by 0x10AF13: Editor::insere_char(char) (t3.cpp:131)
+==1459169==    by 0x10C125: Editor::verifica_fim() (t3.cpp:400)
+==1459169==    by 0x10A658: main (t3.cpp:438)
+==1459169== 
+==1459169== 10 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==1459169==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1459169==    by 0x10A97A: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (t3.cpp:53)
+==1459169==    by 0x10AB5A: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t3.cpp:75)
+==1459169==    by 0x10A62E: main (t3.cpp:436)
+==1459169== 
+==1459169== 98 bytes in 16 blocks are definitely lost in loss record 3 of 3
+==1459169==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1459169==    by 0x10B114: Editor::insere_char(char) (t3.cpp:169)
+==1459169==    by 0x10C125: Editor::verifica_fim() (t3.cpp:400)
+==1459169==    by 0x10A658: main (t3.cpp:438)
+==1459169== 

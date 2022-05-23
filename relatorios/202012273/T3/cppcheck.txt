@@ -1,24 +1,21 @@
-t3.cpp:350:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+t3.cpp:346:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
-t3.cpp:346:25: note: it is initialized
+t3.cpp:342:25: note: it is initialized
                 auto it = linhas.begin();
                         ^
-t3.cpp:350:32: note: it is overwritten
+t3.cpp:346:32: note: it is overwritten
                 for (n = 0, it = linhas.begin();
                                ^
 t3.cpp:50:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
                 char *vetor;
                       ^
-t3.cpp:149:26: style: The scope of the variable 'k' can be reduced. [variableScope]
-            unsigned int k;
+t3.cpp:146:26: style: The scope of the variable 'i' can be reduced. [variableScope]
+            unsigned int i;
                          ^
-t3.cpp:246:26: style: The scope of the variable 'cursor_y_atualizado' can be reduced. [variableScope]
-            unsigned int cursor_y_atualizado;
-                         ^
-t3.cpp:248:31: style: The scope of the variable 'k' can be reduced. [variableScope]
-            long unsigned int k;
-                              ^
+t3.cpp:239:0: style: The function 'gruda_linha' is never used. [unusedFunction]
+
+^
 t3.cpp:63:0: style: The function 'remove' is never used. [unusedFunction]
 
 ^
