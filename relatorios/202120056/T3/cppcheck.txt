@@ -1,12 +1,9 @@
-t3.cpp:415:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+t3.cpp:430:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
-t3.cpp:411:25: note: it is initialized
+t3.cpp:426:25: note: it is initialized
                 auto it = linhas.begin();
                         ^
-t3.cpp:415:32: note: it is overwritten
+t3.cpp:430:32: note: it is overwritten
                 for (n = 0, it = linhas.begin();
                                ^
-t3.cpp:49:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
-                char *vetor;
-                      ^

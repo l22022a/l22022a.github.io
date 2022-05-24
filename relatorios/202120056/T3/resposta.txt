@@ -1,24 +1,23 @@
-*** relatorios/202210847/T3/saida.txt	2022-05-24 17:46:47.738916936 -0300
+*** relatorios/202120056/T3/saida.txt	2022-05-24 17:47:11.971213158 -0300
 --- ./entradas/t3/saida.txt	2022-05-11 19:10:06.910338542 -0300
 ***************
 *** 1,9 ****
-  aola mundo    b
+! aola mundo     b
   sou eu
 !                a
   abcdefgh
   
   
   
-  eeeeee
-! eeee
-\ Nenhum caractere de nova linha no final do arquivo
+! eeeeeeeeee
+! 
 --- 1,9 ----
-  aola mundo    b
+! aola mundo    b
   sou eu
 !               a
   abcdefgh
   
   
   
-  eeeeee
+! eeeeee
 ! eeee
