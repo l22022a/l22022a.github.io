@@ -1,21 +1,3 @@
-main.cpp:243:17: style: Local variable 'tamanho' shadows outer function [shadowFunction]
-            int tamanho = strlen(linhas[cursor_y]);
-                ^
-main.cpp:107:9: note: Shadowed declaration
-    int tamanho(void) const
-        ^
-main.cpp:243:17: note: Shadow variable
-            int tamanho = strlen(linhas[cursor_y]);
-                ^
-main.cpp:355:13: style: Local variable 'tamanho' shadows outer function [shadowFunction]
-        int tamanho = strlen(linhas[cursor_y]) - cursor_x;
-            ^
-main.cpp:107:9: note: Shadowed declaration
-    int tamanho(void) const
-        ^
-main.cpp:355:13: note: Shadow variable
-        int tamanho = strlen(linhas[cursor_y]) - cursor_x;
-            ^
 main.cpp:101:0: style: The function 'remove' is never used. [unusedFunction]
 
 ^
