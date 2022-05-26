@@ -1,0 +1,45 @@
+==1665436== Invalid write of size 1
+==1665436==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10AFDA: Editor::insere_char(char) (l2-t3-Giovanni.cpp:143)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436==  Address 0x4dc042c is 0 bytes after a block of size 12 alloc'd
+==1665436==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10AF9B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:140)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436== 
+==1665436== Invalid read of size 1
+==1665436==    at 0x483F269: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436==  Address 0x4dc03df is 4 bytes after a block of size 11 alloc'd
+==1665436==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10B133: Editor::insere_char(char) (l2-t3-Giovanni.cpp:152)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436== 
+==1665436== Invalid write of size 1
+==1665436==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436==  Address 0x4dc0430 is 4 bytes after a block of size 12 alloc'd
+==1665436==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10AF9B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:140)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436== 
+==1665436== 
+==1665436== Process terminating with default action of signal 11 (SIGSEGV)
+==1665436==  Access not within mapped region at address 0x51AB000
+==1665436==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1665436==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
+==1665436==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==1665436==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
+==1665436==  If you believe this happened as a result of a stack
+==1665436==  overflow in your program's main thread (unlikely but
+==1665436==  possible), you can try to increase the size of the
+==1665436==  main thread stack using the --main-stacksize= flag.
+==1665436==  The main thread stack size used in this run was 8388608.

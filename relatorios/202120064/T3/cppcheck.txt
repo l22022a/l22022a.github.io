@@ -1,0 +1,27 @@
+l2-t3-Giovanni.cpp:369:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+                for (n = 0, it = linhas.begin();
+                               ^
+l2-t3-Giovanni.cpp:365:25: note: it is initialized
+                auto it = linhas.begin();
+                        ^
+l2-t3-Giovanni.cpp:369:32: note: it is overwritten
+                for (n = 0, it = linhas.begin();
+                               ^
+l2-t3-Giovanni.cpp:49:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+                char *vetor;
+                      ^
+l2-t3-Giovanni.cpp:192:26: error: Uninitialized variable: vAtual [uninitvar]
+                delete[] vAtual;
+                         ^
+l2-t3-Giovanni.cpp:183:21: error: Uninitialized variable: tamanhoEspaco [uninitvar]
+                    tamanhoEspaco++;
+                    ^
+l2-t3-Giovanni.cpp:266:21: error: Uninitialized variable: parteRestante [uninitvar]
+                    parteRestante++;
+                    ^
+l2-t3-Giovanni.cpp:181:30: style: Variable 'tamanhoEspaco' is not assigned a value. [unassignedVariable]
+                unsigned int tamanhoEspaco;
+                             ^
+l2-t3-Giovanni.cpp:263:18: style: Variable 'parteRestante' is not assigned a value. [unassignedVariable]
+    unsigned int parteRestante;
+                 ^

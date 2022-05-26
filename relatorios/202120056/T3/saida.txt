@@ -1,9 +1,9 @@
-aola mundo     b
+aola mundo   b
 sou eu
-               a
+             a
 abcdefgh
 
 
 
-eeeeeeeeee
-
+eeeeee
+eeee

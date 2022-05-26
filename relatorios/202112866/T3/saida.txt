@@ -1,0 +1,60 @@
+
+erasdaa
+ESwewrQ: sair do editor
+CTRL ewr+ s: gravar arquivo e sair do modo edicao
+ENTER: erquebra linha
+        wre
+          wre
+            we
+              r
+               we
+                 r                                                                                                                             ret
+                  wer                                                                                                                         t   er
+                     wweewr                                                                                                                 er      t
+                        wr                                                                                                                 t         er
+asdertretertert                         e r                                                                                              er            te
+                            wre                                                                                              ertertertert                rt
+               ert                ew                                                                                                                       er
+                   er t             wer                                                                                                                      tre
+                       er t            r                                                                                                                        t
+                           e r         wre                                                                                                                       t
+                              t er        ew                                                                                                                      r
+                                  t e      r
+                                     rt ereetrt   w er wer                                                                                                         er               rt
+                                            rt     we                                                                                                                t            re
+                                             etr       r wer w                                                                                                        re         t
+                                               etr            er                                                                                                        ter reter
+                                                ert              we                                                                                                        t
+                                                                 r wer
+                                                                      w er
+                                                                          we r
+                                                                              w er
+                                                                                  we
+                                                                                     rwe r
+                                                                                          w er
+                                                  erterter                                            w er
+                                                 erertertt                                                 w er  ertertertert
+                                                         ert                                         ertertertert     we
+                                                                                                         r we
+                                                                                                             r we
+                                                                                                                 r ewr
+                                                                                                                      w
+                                                                                                                       e r
+                                                                                                                          we r
+                                                                                                                              we r
+                                                                                                                                  w er
+                                                                                                                                       ew
+                                                                                                                                         r ew
+                                                                                                                                             r
+                                                                                                                                               we
+                                                                                                                                                 r we
+                                                                                                                                                     r we
+                                                                                                                                                         r wer
+                                                                                                                                                               wer
+                                                                                                                                                                  wer
+ESQ: sair do editor
+CTRL + s: gravar arquivo e sair do modo edicao
+ENTER: quebra linha
+ESQ: sair do editor
+CTRL + s: gravar arquivo e sair do modo edicao
+ENTER: quebra linha
