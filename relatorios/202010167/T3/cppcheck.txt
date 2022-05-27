@@ -1,0 +1,18 @@
+main (17).cpp:231:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+                for (n = 0, it = linhas.begin();
+                               ^
+main (17).cpp:227:25: note: it is initialized
+                auto it = linhas.begin();
+                        ^
+main (17).cpp:231:32: note: it is overwritten
+                for (n = 0, it = linhas.begin();
+                               ^
+main (17).cpp:131:0: style: The function 'gruda_linha' is never used. [unusedFunction]
+
+^
+main (17).cpp:56:0: style: The function 'remove' is never used. [unusedFunction]
+
+^
+main (17).cpp:62:0: style: The function 'tamanho' is never used. [unusedFunction]
+
+^

@@ -1,0 +1,146 @@
+main (17).cpp:16:9: error: ‘caca_canvas_t’ does not name a type
+   16 |         caca_canvas_t *cv;
+      |         ^~~~~~~~~~~~~
+main (17).cpp:17:9: error: ‘caca_display_t’ does not name a type
+   17 |         caca_display_t *dp;
+      |         ^~~~~~~~~~~~~~
+main (17).cpp:18:9: error: ‘caca_event_t’ does not name a type
+   18 |         caca_event_t ev;
+      |         ^~~~~~~~~~~~
+main (17).cpp: In member function ‘void Editor::inicia()’:
+main (17).cpp:22:15: error: ‘dp’ was not declared in this scope; did you mean ‘dup’?
+   22 |               dp = caca_create_display(NULL);
+      |               ^~
+      |               dup
+main (17).cpp:22:20: error: ‘caca_create_display’ was not declared in this scope
+   22 |               dp = caca_create_display(NULL);
+      |                    ^~~~~~~~~~~~~~~~~~~
+main (17).cpp:25:17: error: ‘cv’ was not declared in this scope; did you mean ‘gcvt’?
+   25 |                 cv = caca_get_canvas(dp);
+      |                 ^~
+      |                 gcvt
+main (17).cpp:25:22: error: ‘caca_get_canvas’ was not declared in this scope
+   25 |                 cv = caca_get_canvas(dp);
+      |                      ^~~~~~~~~~~~~~~
+main (17).cpp:26:17: error: ‘caca_set_cursor’ was not declared in this scope
+   26 |                 caca_set_cursor(dp, 1);
+      |                 ^~~~~~~~~~~~~~~
+main (17).cpp:27:17: error: ‘caca_set_mouse’ was not declared in this scope
+   27 |                 caca_set_mouse(dp, 1);
+      |                 ^~~~~~~~~~~~~~
+main (17).cpp:28:17: error: ‘caca_set_display_title’ was not declared in this scope
+   28 |                 caca_set_display_title(dp, "Editor Caca");
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+main (17).cpp:29:17: error: ‘caca_clear_canvas’ was not declared in this scope
+   29 |                 caca_clear_canvas(cv);
+      |                 ^~~~~~~~~~~~~~~~~
+main (17).cpp:30:41: error: ‘CACA_WHITE’ was not declared in this scope
+   30 |                 caca_set_color_ansi(cv, CACA_WHITE, CACA_BLACK);
+      |                                         ^~~~~~~~~~
+main (17).cpp:30:53: error: ‘CACA_BLACK’ was not declared in this scope
+   30 |                 caca_set_color_ansi(cv, CACA_WHITE, CACA_BLACK);
+      |                                                     ^~~~~~~~~~
+main (17).cpp:30:17: error: ‘caca_set_color_ansi’ was not declared in this scope
+   30 |                 caca_set_color_ansi(cv, CACA_WHITE, CACA_BLACK);
+      |                 ^~~~~~~~~~~~~~~~~~~
+main (17).cpp:36:28: error: ‘caca_get_canvas_width’ was not declared in this scope
+   36 |                 ncolunas = caca_get_canvas_width(cv);
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+main (17).cpp:37:27: error: ‘caca_get_canvas_height’ was not declared in this scope
+   37 |                 nlinhas = caca_get_canvas_height(cv);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+main (17).cpp: In member function ‘void Editor::finaliza()’:
+main (17).cpp:41:35: error: ‘dp’ was not declared in this scope; did you mean ‘dup’?
+   41 |                 caca_free_display(dp);
+      |                                   ^~
+      |                                   dup
+main (17).cpp:41:17: error: ‘caca_free_display’ was not declared in this scope
+   41 |                 caca_free_display(dp);
+      |                 ^~~~~~~~~~~~~~~~~
+main (17).cpp: In member function ‘void Editor::insere_char(char)’:
+main (17).cpp:124:28: error: ‘linha’ was not declared in this scope; did you mean ‘linhas’?
+  124 |           linhas.push_back(linha.c_str());
+      |                            ^~~~~
+      |                            linhas
+main (17).cpp: In member function ‘void Editor::remove_char()’:
+main (17).cpp:129:12: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+  129 |     return l;
+      |            ^
+main (17).cpp: In member function ‘bool Editor::verifica_fim()’:
+main (17).cpp:175:36: error: ‘dp’ was not declared in this scope; did you mean ‘dup’?
+  175 |                 if (caca_get_event(dp, CACA_EVENT_ANY, &ev, 0)) {
+      |                                    ^~
+      |                                    dup
+main (17).cpp:175:40: error: ‘CACA_EVENT_ANY’ was not declared in this scope
+  175 |                 if (caca_get_event(dp, CACA_EVENT_ANY, &ev, 0)) {
+      |                                        ^~~~~~~~~~~~~~
+main (17).cpp:175:57: error: ‘ev’ was not declared in this scope; did you mean ‘ecvt’?
+  175 |                 if (caca_get_event(dp, CACA_EVENT_ANY, &ev, 0)) {
+      |                                                         ^~
+      |                                                         ecvt
+main (17).cpp:175:21: error: ‘caca_get_event’ was not declared in this scope
+  175 |                 if (caca_get_event(dp, CACA_EVENT_ANY, &ev, 0)) {
+      |                     ^~~~~~~~~~~~~~
+main (17).cpp:176:29: error: ‘caca_get_event_type’ was not declared in this scope
+  176 |                         if (caca_get_event_type(&ev) & CACA_EVENT_KEY_PRESS) {
+      |                             ^~~~~~~~~~~~~~~~~~~
+main (17).cpp:176:56: error: ‘CACA_EVENT_KEY_PRESS’ was not declared in this scope
+  176 |                         if (caca_get_event_type(&ev) & CACA_EVENT_KEY_PRESS) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~
+main (17).cpp:177:45: error: ‘caca_get_event_key_ch’ was not declared in this scope
+  177 |                                 int tecla = caca_get_event_key_ch(&ev);
+      |                                             ^~~~~~~~~~~~~~~~~~~~~
+main (17).cpp:179:38: error: ‘CACA_KEY_ESCAPE’ was not declared in this scope
+  179 |                                 case CACA_KEY_ESCAPE:
+      |                                      ^~~~~~~~~~~~~~~
+main (17).cpp:182:38: error: ‘CACA_KEY_END’ was not declared in this scope
+  182 |                                 case CACA_KEY_END:
+      |                                      ^~~~~~~~~~~~
+main (17).cpp:185:38: error: ‘CACA_KEY_HOME’ was not declared in this scope
+  185 |                                 case CACA_KEY_HOME:
+      |                                      ^~~~~~~~~~~~~
+main (17).cpp:188:38: error: ‘CACA_KEY_UP’ was not declared in this scope
+  188 |                                 case CACA_KEY_UP:
+      |                                      ^~~~~~~~~~~
+main (17).cpp:192:38: error: ‘CACA_KEY_DOWN’ was not declared in this scope
+  192 |                                 case CACA_KEY_DOWN:
+      |                                      ^~~~~~~~~~~~~
+main (17).cpp:196:38: error: ‘CACA_KEY_LEFT’ was not declared in this scope
+  196 |                                 case CACA_KEY_LEFT:
+      |                                      ^~~~~~~~~~~~~
+main (17).cpp:200:38: error: ‘CACA_KEY_RIGHT’ was not declared in this scope
+  200 |                                 case CACA_KEY_RIGHT:
+      |                                      ^~~~~~~~~~~~~~
+main (17).cpp:204:38: error: ‘CACA_KEY_BACKSPACE’ was not declared in this scope
+  204 |                                 case CACA_KEY_BACKSPACE:
+      |                                      ^~~~~~~~~~~~~~~~~~
+main (17).cpp:207:38: error: ‘CACA_KEY_DELETE’ was not declared in this scope
+  207 |                                 case CACA_KEY_DELETE:
+      |                                      ^~~~~~~~~~~~~~~
+main (17).cpp:209:38: error: ‘CACA_KEY_RETURN’ was not declared in this scope
+  209 |                                 case CACA_KEY_RETURN:
+      |                                      ^~~~~~~~~~~~~~~
+main (17).cpp:212:38: error: ‘CACA_KEY_CTRL_D’ was not declared in this scope
+  212 |                                 case CACA_KEY_CTRL_D:
+      |                                      ^~~~~~~~~~~~~~~
+main (17).cpp: In member function ‘void Editor::atualiza()’:
+main (17).cpp:229:35: error: ‘cv’ was not declared in this scope; did you mean ‘gcvt’?
+  229 |                 caca_clear_canvas(cv);
+      |                                   ^~
+      |                                   gcvt
+main (17).cpp:229:17: error: ‘caca_clear_canvas’ was not declared in this scope
+  229 |                 caca_clear_canvas(cv);
+      |                 ^~~~~~~~~~~~~~~~~
+main (17).cpp:235:33: error: ‘caca_put_str’ was not declared in this scope
+  235 |                                 caca_put_str(cv, 0, n, *it);
+      |                                 ^~~~~~~~~~~~
+main (17).cpp:239:17: error: ‘caca_gotoxy’ was not declared in this scope
+  239 |                 caca_gotoxy(cv, cursor_x, cursor_y);
+      |                 ^~~~~~~~~~~
+main (17).cpp:241:38: error: ‘dp’ was not declared in this scope; did you mean ‘dup’?
+  241 |                 caca_refresh_display(dp);
+      |                                      ^~
+      |                                      dup
+main (17).cpp:241:17: error: ‘caca_refresh_display’ was not declared in this scope
+  241 |                 caca_refresh_display(dp);
+      |                 ^~~~~~~~~~~~~~~~~~~~
