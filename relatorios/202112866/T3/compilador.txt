@@ -1,38 +1,4 @@
-main.cpp: In member function ‘void Editor::move_dir()’:
-main.cpp:110:17: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
-  110 |     if(cursor_x >= caca_get_canvas_width(cv)){
-      |        ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.cpp: In member function ‘void Editor::move_baixo()’:
-main.cpp:133:17: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
-  133 |     if(cursor_y >= caca_get_canvas_height(cv)){
-      |        ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.cpp: In member function ‘void Editor::insere_char(char)’:
-main.cpp:151:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  151 |     if(cursorXOffset() > strlen(linha)){
-      |        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
-main.cpp:159:36: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
-  159 |     for(long unsigned int i = 0; i < tamanhoPalavra; i++){
-      |                                  ~~^~~~~~~~~~~~~~~~
-main.cpp:160:12: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
-  160 |       if(i == cursorXOffset()){
-      |          ~~^~~~~~~~~~~~~~~~~~
-main.cpp:165:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  165 |           if((cursorXOffset() > strlen(linha)) && (i == strlen(linha))){
-      |               ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
-main.cpp: In member function ‘void Editor::remove_char()’:
-main.cpp:182:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-  182 |     if(cursorYOffset() >= linhas.size()){
-      |        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
-main.cpp:189:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  189 |     if(cursorXOffset() > strlen(linha)){
-      |        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
-main.cpp:198:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  198 |       if(i + offset < strlen(linha)){
-      |          ~~~~~~~~~~~^~~~~~~~~~~~~~~
-main.cpp: In member function ‘void Editor::quebra_linha()’:
-main.cpp:251:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
-  251 |     if(cursorXOffset() >= strlen(linha)){
-      |        ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
-main.cpp:257:36: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
-  257 |     for(long unsigned int i = 0; i <= cursorXOffset() ; i++){
-      |                                  ~~^~~~~~~~~~~~~~~~~~
+main.cpp: In member function ‘void Editor::move_end()’:
+main.cpp:75:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   75 |     if (cursorYOffset() < linhas.size() && linhas[cursorYOffset()] != nullptr){
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
