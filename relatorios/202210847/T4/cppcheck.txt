@@ -1,0 +1,3 @@
+main.cpp:18:9: style: The scope of the variable 'carta' can be reduced. [variableScope]
+    int carta;
+        ^

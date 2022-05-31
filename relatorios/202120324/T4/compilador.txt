@@ -1,0 +1,7 @@
+codigo.cpp: In function ‘int main()’:
+codigo.cpp:9:30: warning: comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+    9 |     for (unsigned int i=0; i < n; i++){
+      |                            ~~^~~
+codigo.cpp:12:30: warning: comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+   12 |     for(unsigned int i=0;  i < n -1; i++){
+      |                            ~~^~~~~~
