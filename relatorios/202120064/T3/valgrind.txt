@@ -1,45 +1,210 @@
-==1689249== Invalid write of size 1
-==1689249==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10AFDA: Editor::insere_char(char) (l2-t3-Giovanni.cpp:143)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249==  Address 0x4dc042c is 0 bytes after a block of size 12 alloc'd
-==1689249==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10AF9B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:140)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249== 
-==1689249== Invalid read of size 1
-==1689249==    at 0x483F269: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249==  Address 0x4dc03df is 4 bytes after a block of size 11 alloc'd
-==1689249==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10B133: Editor::insere_char(char) (l2-t3-Giovanni.cpp:152)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249== 
-==1689249== Invalid write of size 1
-==1689249==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249==  Address 0x4dc0430 is 4 bytes after a block of size 12 alloc'd
-==1689249==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10AF9B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:140)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249== 
-==1689249== 
-==1689249== Process terminating with default action of signal 11 (SIGSEGV)
-==1689249==  Access not within mapped region at address 0x51AB000
-==1689249==    at 0x483F2A4: strncpy (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689249==    by 0x10B03B: Editor::insere_char(char) (l2-t3-Giovanni.cpp:144)
-==1689249==    by 0x10BFDD: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
-==1689249==    by 0x10A678: main (l2-t3-Giovanni.cpp:392)
-==1689249==  If you believe this happened as a result of a stack
-==1689249==  overflow in your program's main thread (unlikely but
-==1689249==  possible), you can try to increase the size of the
-==1689249==  main thread stack using the --main-stacksize= flag.
-==1689249==  The main thread stack size used in this run was 8388608.
+==57355== Invalid read of size 8
+==57355==    at 0x10AC7D: Editor::insere_char(char) (l2-t3-Giovanni.cpp:148)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d66390 is 0 bytes after a block of size 16 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10C5CD: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==57355==    by 0x10BF21: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1198)
+==57355==    by 0x10A732: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (l2-t3-Giovanni.cpp:56)
+==57355==    by 0x10A865: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (l2-t3-Giovanni.cpp:75)
+==57355==    by 0x10A3D4: main (l2-t3-Giovanni.cpp:390)
+==57355== 
+==57355== Invalid write of size 8
+==57355==    at 0x10AD14: Editor::insere_char(char) (l2-t3-Giovanni.cpp:155)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d66390 is 0 bytes after a block of size 16 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10C5CD: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==57355==    by 0x10BF21: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1198)
+==57355==    by 0x10A732: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (l2-t3-Giovanni.cpp:56)
+==57355==    by 0x10A865: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (l2-t3-Giovanni.cpp:75)
+==57355==    by 0x10A3D4: main (l2-t3-Giovanni.cpp:390)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10AD49: Editor::insere_char(char) (l2-t3-Giovanni.cpp:158)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10AF35: Editor::insere_char(char) (l2-t3-Giovanni.cpp:177)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10AF5E: Editor::insere_char(char) (l2-t3-Giovanni.cpp:178)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10AF91: Editor::insere_char(char) (l2-t3-Giovanni.cpp:179)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10AFCC: Editor::insere_char(char) (l2-t3-Giovanni.cpp:182)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 8
+==57355==    at 0x10B043: Editor::insere_char(char) (l2-t3-Giovanni.cpp:184)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid write of size 8
+==57355==    at 0x10B078: Editor::insere_char(char) (l2-t3-Giovanni.cpp:186)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d664e0 is 0 bytes after a block of size 32 alloc'd
+==57355==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57355==    by 0x10D7A9: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57355==    by 0x10D55C: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57355==    by 0x10D259: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57355==    by 0x10CE99: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char*>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char*&&) (vector.tcc:440)
+==57355==    by 0x10C4F1: void std::vector<char*, std::allocator<char*> >::emplace_back<char*>(char*&&) (vector.tcc:121)
+==57355==    by 0x10BEA5: std::vector<char*, std::allocator<char*> >::push_back(char*&&) (stl_vector.h:1204)
+==57355==    by 0x10ABC4: Editor::insere_char(char) (l2-t3-Giovanni.cpp:137)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Conditional jump or move depends on uninitialised value(s)
+==57355==    at 0x48394BC: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10B8DF: Editor::quebra_linha() (l2-t3-Giovanni.cpp:295)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Use of uninitialised value of size 8
+==57355==    at 0x10B991: Editor::quebra_linha() (l2-t3-Giovanni.cpp:298)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid write of size 1
+==57355==    at 0x10B991: Editor::quebra_linha() (l2-t3-Giovanni.cpp:298)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d66c57 is 0 bytes after a block of size 7 alloc'd
+==57355==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10B8DF: Editor::quebra_linha() (l2-t3-Giovanni.cpp:295)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Conditional jump or move depends on uninitialised value(s)
+==57355==    at 0x483C279: __strncpy_sse2_unaligned (vg_replace_strmem.c:553)
+==57355==    by 0x10B9A9: Editor::quebra_linha() (l2-t3-Giovanni.cpp:299)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Conditional jump or move depends on uninitialised value(s)
+==57355==    at 0x483C29F: __strncpy_sse2_unaligned (vg_replace_strmem.c:553)
+==57355==    by 0x10B9A9: Editor::quebra_linha() (l2-t3-Giovanni.cpp:299)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Conditional jump or move depends on uninitialised value(s)
+==57355==    at 0x483C2CD: __strncpy_sse2_unaligned (vg_replace_strmem.c:553)
+==57355==    by 0x10B9A9: Editor::quebra_linha() (l2-t3-Giovanni.cpp:299)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== Invalid read of size 1
+==57355==    at 0x483BCF4: __strlen_sse2 (vg_replace_strmem.c:461)
+==57355==    by 0x10B306: Editor::remove_char() (l2-t3-Giovanni.cpp:218)
+==57355==    by 0x10BC17: Editor::verifica_fim() (l2-t3-Giovanni.cpp:343)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355==  Address 0x4d66c57 is 0 bytes after a block of size 7 alloc'd
+==57355==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10B8DF: Editor::quebra_linha() (l2-t3-Giovanni.cpp:295)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== 5 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==57355==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10AF74: Editor::insere_char(char) (l2-t3-Giovanni.cpp:178)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== 7 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==57355==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10B8DF: Editor::quebra_linha() (l2-t3-Giovanni.cpp:295)
+==57355==    by 0x10BC25: Editor::verifica_fim() (l2-t3-Giovanni.cpp:348)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 
+==57355== 16 bytes in 1 blocks are definitely lost in loss record 3 of 3
+==57355==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57355==    by 0x10ACA1: Editor::insere_char(char) (l2-t3-Giovanni.cpp:149)
+==57355==    by 0x10BC8B: Editor::verifica_fim() (l2-t3-Giovanni.cpp:354)
+==57355==    by 0x10A3FB: main (l2-t3-Giovanni.cpp:392)
+==57355== 

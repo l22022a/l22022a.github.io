@@ -1,0 +1,27 @@
+main.cpp: In member function ‘void Editor::insere_char(char)’:
+main.cpp:165:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  165 |         if(tamanho() < cursor_y+1){
+      |            ~~~~~~~~~~^~~~~~~~~~~~
+main.cpp:166:38: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  166 |             for(int i = tamanho(); i < cursor_y+1; i++){
+      |                                    ~~^~~~~~~~~~~~
+main.cpp:188:41: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  188 |             for (int i = strlen(aux); i < cursor_x; i++)
+      |                                       ~~^~~~~~~~~~
+main.cpp: In member function ‘void Editor::remove_char()’:
+main.cpp:242:29: warning: comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+  242 |                 if(cursor_y >= tamanho()){
+      |                    ~~~~~~~~~^~~~~~~~~~~~
+main.cpp:243:46: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  243 |                     for(int i = tamanho(); i < cursor_y+1; i++){
+      |                                            ~~^~~~~~~~~~~~
+main.cpp: In member function ‘void Editor::quebra_linha()’:
+main.cpp:324:22: warning: comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+  324 |         if (cursor_y >= tamanho())
+      |             ~~~~~~~~~^~~~~~~~~~~~
+main.cpp:365:133: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+  365 |         else if (cursor_y <= linhas.size() && cursor_x == strlen(linhas[cursor_y]) && (linhas[cursor_y + 1] == nullptr || tamanho() > cursor_y) || cursor_x > strlen(linhas[cursor_y]))
+      |                                                                                                                           ~~~~~~~~~~^~~~~~~~~~
+main.cpp:365:84: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  365 |         else if (cursor_y <= linhas.size() && cursor_x == strlen(linhas[cursor_y]) && (linhas[cursor_y + 1] == nullptr || tamanho() > cursor_y) || cursor_x > strlen(linhas[cursor_y]))
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

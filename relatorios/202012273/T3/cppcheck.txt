@@ -1,25 +1,28 @@
-t3.cpp:335:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+t3.cpp:151:43: error: Null pointer dereference [nullPointer]
+                std::string linha_vazia = nullptr;
+                                          ^
+t3.cpp:364:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
-t3.cpp:331:25: note: it is initialized
+t3.cpp:360:25: note: it is initialized
                 auto it = linhas.begin();
                         ^
-t3.cpp:335:32: note: it is overwritten
+t3.cpp:364:32: note: it is overwritten
                 for (n = 0, it = linhas.begin();
                                ^
 t3.cpp:50:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
                 char *vetor;
                       ^
-t3.cpp:147:26: style: The scope of the variable 'i' can be reduced. [variableScope]
+t3.cpp:146:26: style: The scope of the variable 'i' can be reduced. [variableScope]
             unsigned int i;
                          ^
-t3.cpp:244:21: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+t3.cpp:274:21: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
                     it++; // coloca it apontando para a linha vazia de cima
                     ^
-t3.cpp:253:25: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+t3.cpp:282:25: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
                         it++;          // coloca it apontando para a linha vazia atual
                         ^
-t3.cpp:262:24: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+t3.cpp:291:24: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
                        it++; // verificar aqui
                        ^
 t3.cpp:63:0: style: The function 'remove' is never used. [unusedFunction]

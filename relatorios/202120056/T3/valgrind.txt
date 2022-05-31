@@ -1,6 +1,0 @@
-==1689217== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==1689217==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689217==    by 0x10B114: Editor::insere_char(char) (t3.cpp:173)
-==1689217==    by 0x10C0B1: Editor::verifica_fim() (t3.cpp:409)
-==1689217==    by 0x10A658: main (t3.cpp:447)
-==1689217== 

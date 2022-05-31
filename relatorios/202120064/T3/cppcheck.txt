@@ -1,3 +1,21 @@
+l2-t3-Giovanni.cpp:177:40: style: Condition 'linhas[cursor_y]!=nullptr' is always true [knownConditionTrueFalse]
+              else if(linhas[cursor_y] != nullptr){                                             // caso estiver no meio da linha
+                                       ^
+l2-t3-Giovanni.cpp:222:20: style: Condition 'cursor_x!=0' is always true [knownConditionTrueFalse]
+       if(cursor_x != 0){                                                                 // se estiver no meio da linha
+                   ^
+l2-t3-Giovanni.cpp:263:5: error: Memory leak: vCima [memleak]
+    vCima = linhas[cursor_y - 1];
+    ^
+l2-t3-Giovanni.cpp:263:11: style: Variable 'vCima' is reassigned a value before the old one has been used. [redundantAssignment]
+    vCima = linhas[cursor_y - 1];
+          ^
+l2-t3-Giovanni.cpp:262:11: note: vCima is assigned
+    vCima = new char[strlen(linhas[cursor_y - 1]) + strlen(linhas[cursor_y]) + 1];
+          ^
+l2-t3-Giovanni.cpp:263:11: note: vCima is overwritten
+    vCima = linhas[cursor_y - 1];
+          ^
 l2-t3-Giovanni.cpp:369:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
@@ -10,18 +28,6 @@ l2-t3-Giovanni.cpp:369:32: note: it is overwritten
 l2-t3-Giovanni.cpp:49:23: style: The scope of the variable 'vetor' can be reduced. [variableScope]
                 char *vetor;
                       ^
-l2-t3-Giovanni.cpp:192:26: error: Uninitialized variable: vAtual [uninitvar]
-                delete[] vAtual;
-                         ^
-l2-t3-Giovanni.cpp:183:21: error: Uninitialized variable: tamanhoEspaco [uninitvar]
-                    tamanhoEspaco++;
-                    ^
-l2-t3-Giovanni.cpp:266:21: error: Uninitialized variable: parteRestante [uninitvar]
-                    parteRestante++;
-                    ^
-l2-t3-Giovanni.cpp:181:30: style: Variable 'tamanhoEspaco' is not assigned a value. [unassignedVariable]
-                unsigned int tamanhoEspaco;
-                             ^
-l2-t3-Giovanni.cpp:263:18: style: Variable 'parteRestante' is not assigned a value. [unassignedVariable]
-    unsigned int parteRestante;
-                 ^
+l2-t3-Giovanni.cpp:293:7: error: Uninitialized variable: t [uninitvar]
+      t++;
+      ^

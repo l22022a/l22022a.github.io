@@ -1,0 +1,18 @@
+main.cpp:442:24: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+        for (n = 0, it = linhas.begin();
+                       ^
+main.cpp:438:17: note: it is initialized
+        auto it = linhas.begin();
+                ^
+main.cpp:442:24: note: it is overwritten
+        for (n = 0, it = linhas.begin();
+                       ^
+main.cpp:53:15: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+        char *vetor;
+              ^
+main.cpp:375:0: style: The function 'legenda' is never used. [unusedFunction]
+
+^
+main.cpp:67:0: style: The function 'remove' is never used. [unusedFunction]
+
+^

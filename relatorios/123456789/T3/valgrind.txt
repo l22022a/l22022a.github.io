@@ -1,6 +1,6 @@
-==1689192== 17 bytes in 2 blocks are definitely lost in loss record 1 of 1
-==1689192==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1689192==    by 0x10A962: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (exemplo-caca.cpp:62)
-==1689192==    by 0x10AAA0: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (exemplo-caca.cpp:98)
-==1689192==    by 0x10A60E: main (exemplo-caca.cpp:271)
-==1689192== 
+==57296== 17 bytes in 2 blocks are definitely lost in loss record 1 of 1
+==57296==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==57296==    by 0x10A6BF: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (exemplo-caca.cpp:62)
+==57296==    by 0x10A7D1: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (exemplo-caca.cpp:98)
+==57296==    by 0x10A3B4: main (exemplo-caca.cpp:271)
+==57296== 

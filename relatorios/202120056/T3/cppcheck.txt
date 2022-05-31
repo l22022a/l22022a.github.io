@@ -1,9 +1,9 @@
-t3.cpp:424:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
+t3.cpp:427:32: style: Redundant initialization for 'it'. The initialized value is overwritten before it is read. [redundantInitialization]
                 for (n = 0, it = linhas.begin();
                                ^
-t3.cpp:420:25: note: it is initialized
+t3.cpp:423:25: note: it is initialized
                 auto it = linhas.begin();
                         ^
-t3.cpp:424:32: note: it is overwritten
+t3.cpp:427:32: note: it is overwritten
                 for (n = 0, it = linhas.begin();
                                ^

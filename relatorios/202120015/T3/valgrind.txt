@@ -1,0 +1,34 @@
+==57413== Invalid read of size 8
+==57413==    at 0x10AFDD: Editor::remove_char() (main.cpp:236)
+==57413==    by 0x10BCDD: Editor::verifica_fim() (main.cpp:415)
+==57413==    by 0x10A40B: main (main.cpp:469)
+==57413==  Address 0x4d66390 is 0 bytes after a block of size 16 alloc'd
+==57413==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==57413==    by 0x10D1E7: __gnu_cxx::new_allocator<char*>::allocate(unsigned long, void const*) (new_allocator.h:115)
+==57413==    by 0x10D022: std::allocator_traits<std::allocator<char*> >::allocate(std::allocator<char*>&, unsigned long) (alloc_traits.h:460)
+==57413==    by 0x10CDF7: std::_Vector_base<char*, std::allocator<char*> >::_M_allocate(unsigned long) (stl_vector.h:346)
+==57413==    by 0x10C49B: void std::vector<char*, std::allocator<char*> >::_M_realloc_insert<char* const&>(__gnu_cxx::__normal_iterator<char**, std::vector<char*, std::allocator<char*> > >, char* const&) (vector.tcc:440)
+==57413==    by 0x10BFE7: std::vector<char*, std::allocator<char*> >::push_back(char* const&) (stl_vector.h:1198)
+==57413==    by 0x10A742: Editor::insere(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (main.cpp:61)
+==57413==    by 0x10A88F: Editor::carrega(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (main.cpp:98)
+==57413==    by 0x10A3E4: main (main.cpp:466)
+==57413== 
+==57413== Invalid read of size 1
+==57413==    at 0x483BCE2: __strlen_sse2 (vg_replace_strmem.c:461)
+==57413==    by 0x10AFE7: Editor::remove_char() (main.cpp:236)
+==57413==    by 0x10BCDD: Editor::verifica_fim() (main.cpp:415)
+==57413==    by 0x10A40B: main (main.cpp:469)
+==57413==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==57413== 
+==57413== 
+==57413== Process terminating with default action of signal 11 (SIGSEGV)
+==57413==  Access not within mapped region at address 0x0
+==57413==    at 0x483BCE2: __strlen_sse2 (vg_replace_strmem.c:461)
+==57413==    by 0x10AFE7: Editor::remove_char() (main.cpp:236)
+==57413==    by 0x10BCDD: Editor::verifica_fim() (main.cpp:415)
+==57413==    by 0x10A40B: main (main.cpp:469)
+==57413==  If you believe this happened as a result of a stack
+==57413==  overflow in your program's main thread (unlikely but
+==57413==  possible), you can try to increase the size of the
+==57413==  main thread stack using the --main-stacksize= flag.
+==57413==  The main thread stack size used in this run was 8388608.
