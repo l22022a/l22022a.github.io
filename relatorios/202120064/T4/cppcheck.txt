@@ -1,0 +1,6 @@
+l2-t4-Giovanni.cpp:8:12: style: The scope of the variable 'descartado' can be reduced. [variableScope]
+  int num, descartado, ultimo;
+           ^
+l2-t4-Giovanni.cpp:8:24: style: The scope of the variable 'ultimo' can be reduced. [variableScope]
+  int num, descartado, ultimo;
+                       ^
